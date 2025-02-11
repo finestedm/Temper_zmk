@@ -165,7 +165,7 @@
   &trans          &kp UP_ARROW    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans          &trans          &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                                  &trans     &trans  &trans    &trans  &trans  &trans
+                                  &kp N1 &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
