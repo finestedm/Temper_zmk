@@ -79,12 +79,22 @@
 
         langswitchcombo {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <16 17>;
+            key-positions = <17 7>;
         };
 
         capswordcombo {
             bindings = <&caps_word>;
-            key-positions = <12 13>;
+            key-positions = <12 2>;
+        };
+
+        shiftnext {
+            bindings = <&sk LEFT_SHIFT>;
+            key-positions = <6 16>;
+        };
+
+        capslock {
+            bindings = <&kp CAPS>;
+            key-positions = <3 13>;
         };
     };
 
