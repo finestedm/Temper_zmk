@@ -1,0 +1,269 @@
+layers:
+  Base:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ''''
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - ;
+  - {t: ESC, h: BLT}
+  - {t: SPACE, h: NAV}
+  - {t: TAB, h: NUM}
+  - {t: ENTER, h: SYM}
+  - {t: BACKSPACE, h: MOUSE}
+  - {t: DEL, h: FUN}
+  NAV:
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - ''
+  - INS
+  - HOME
+  - UP
+  - END
+  - PG UP
+  - LEFT WIN
+  - LEFT ALT
+  - LCTRL
+  - LEFT SHIFT
+  - ''
+  - CAPS
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PG DN
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Y
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ENTER
+  - BSPC
+  - DEL
+  NUM:
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - ''
+  - KP PLUS
+  - '7'
+  - '8'
+  - '9'
+  - KP EQUAL
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - AL CALC
+  - KP MINUS
+  - '4'
+  - '5'
+  - '6'
+  - '0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP MULTIPLY
+  - '1'
+  - '2'
+  - '3'
+  - '%'
+  - ESC
+  - SPACE
+  - {t: TAB, type: held}
+  - {t: ▽, type: trans}
+  - KP DIVIDE
+  - {t: ▽, type: trans}
+  SYM:
+  - '='
+  - '&'
+  - '*'
+  - ^
+  - '`'
+  - ''
+  - {t: RIGHT SHIFT, h: sticky}
+  - {t: RCTRL, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - {t: RIGHT GUI, h: sticky}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - '{'
+  - RSHFT
+  - RCTRL
+  - LALT
+  - RGUI
+  - '['
+  - (
+  - )
+  - ']'
+  - \
+  - '}'
+  - '-'
+  - _
+  - RALT
+  - ''
+  - {t: ▽, type: trans}
+  - '?'
+  - /
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  MOUSE:
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - '&mkp MB4'
+  - Sft+Gui+D
+  - {t: RIGHT SHIFT, h: sticky}
+  - {t: RCTRL, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - {t: RIGHT GUI, h: sticky}
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mkp MB5'
+  - Gui+Sft+S
+  - RSHFT
+  - RCTRL
+  - LALT
+  - RGUI
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Y
+  - Sft+Gui+T
+  - ''
+  - ''
+  - RALT
+  - ''
+  - '&mkp MCLK'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - ENTER
+  - {t: BSPC, type: held}
+  - DEL
+  FUN:
+  - F12
+  - F7
+  - F8
+  - F9
+  - PAUSE BREAK
+  - ''
+  - {t: RIGHT SHIFT, h: sticky}
+  - {t: RCTRL, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - {t: RIGHT GUI, h: sticky}
+  - F11
+  - F4
+  - F5
+  - F6
+  - PRINTSCREEN
+  - ''
+  - RSHFT
+  - RCTRL
+  - LALT
+  - RGUI
+  - F10
+  - F1
+  - F2
+  - F3
+  - SLCK
+  - ''
+  - ''
+  - ''
+  - RALT
+  - ''
+  - APP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ENTER
+  - BSPC
+  - {t: DEL, type: held}
+  BLT:
+  - {t: LEFT GUI, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LEFT SHIFT, h: sticky}
+  - '&bootloader'
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: ▽, type: trans}
+  - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Alt+K
+  - VOL UP
+  - VOL DN
+  - {t: ▽, type: trans}
+  - {t: BT, h: '4'}
+  - {t: ESC, type: held}
+  - SPACE
+  - TAB
+  - PLAY PAUSE
+  - PREV
+  - NEXT
+combos:
+- p: [17, 7]
+  k: Gui+SPACE
+- p: [12, 2]
+  k: '&caps_word'
+- p: [6, 16]
+  k: {t: LEFT SHIFT, h: sticky}
+- p: [3, 13]
+  k: CAPS
