@@ -79,22 +79,50 @@
 
         langswitchcombo {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <17 7>;
+            key-positions = <3 13>;
+            layers = <0>;
         };
 
         capswordcombo {
             bindings = <&caps_word>;
-            key-positions = <12 2>;
+            key-positions = <26 27>;
+            layers = <0>;
         };
 
         shiftnext {
             bindings = <&sk LEFT_SHIFT>;
             key-positions = <6 16>;
+            layers = <0>;
         };
 
         capslock {
             bindings = <&kp CAPS>;
-            key-positions = <3 13>;
+            key-positions = <22 23>;
+            layers = <0>;
+        };
+
+        nextsym {
+            bindings = <&sl 3>;
+            key-positions = <7 17>;
+            layers = <0>;
+        };
+
+        togmouse {
+            bindings = <&tog 4>;
+            key-positions = <11 12 13>;
+            layers = <0 4>;
+        };
+
+        tognav {
+            bindings = <&tog 1>;
+            key-positions = <17 18 16>;
+            layers = <0 1>;
+        };
+
+        nextnum {
+            bindings = <&sl 2>;
+            key-positions = <2 12>;
+            layers = <0>;
         };
     };
 
