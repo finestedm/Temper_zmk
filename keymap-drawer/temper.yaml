@@ -259,11 +259,27 @@ layers:
   - PREV
   - NEXT
 combos:
-- p: [17, 7]
+- p: [3, 13]
   k: Gui+SPACE
-- p: [12, 2]
+  l: [Base]
+- p: [26, 27]
   k: '&caps_word'
+  l: [Base]
 - p: [6, 16]
   k: {t: LEFT SHIFT, h: sticky}
-- p: [3, 13]
+  l: [Base]
+- p: [22, 23]
   k: CAPS
+  l: [Base]
+- p: [7, 17]
+  k: {t: SYM, h: sticky}
+  l: [Base]
+- p: [11, 12, 13]
+  k: {t: MOUSE, h: toggle}
+  l: [Base, MOUSE]
+- p: [17, 18, 16]
+  k: {t: NAV, h: toggle}
+  l: [Base, NAV]
+- p: [2, 12]
+  k: {t: NUM, h: sticky}
+  l: [Base]
