@@ -227,7 +227,7 @@ layers:
   - {t: LEFT ALT, h: sticky}
   - {t: LCTRL, h: sticky}
   - {t: LEFT SHIFT, h: sticky}
-  - '&bootloader'
+  - Boot
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -264,7 +264,7 @@ combos:
   k: Gui+SPACE
   l: [Base]
 - p: [26, 27]
-  k: '&caps_word'
+  k: Caps Word
   l: [Base]
 - p: [6, 16]
   k: TAB
