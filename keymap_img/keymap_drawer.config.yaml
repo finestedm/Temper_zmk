@@ -62,6 +62,17 @@ parse_config:
     special_combinations:
       left_ctrl+left_alt+left_gui+left_shift: Hyper
       left_ctrl+left_alt+left_shift: Meh
+          LG(SPACE): 'LANG'
+          caps_word: 'WCAPS'
+          LC(Z): 'UNDO'
+          LC(X): 'CUT'
+          LC(C): 'COPY'
+          LC(V): 'PASTE'
+          LC(Y): 'REDO'
+          LS(LG(D)): 'MINI MAP'
+          LG(LS(S)): 'SNIP IMG'
+          LS(LG(T)): 'SNIP TEXT'
+          LG(LA(K)): 'TOG MIC'
   qmk_remove_keycode_prefix:
   - KC_
   qmk_keycode_map:
@@ -197,17 +208,6 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
-    LG(SPACE): 'LANG'
-    caps_word: 'WCAPS'
-    LC(Z): 'UNDO'
-    LC(X): 'CUT'
-    LC(C): 'COPY'
-    LC(V): 'PASTE'
-    LC(Y): 'REDO'
-    LS(LG(D)): 'MINI MAP'
-    LG(LS(S)): 'SNIP IMG'
-    LS(LG(T)): 'SNIP TEXT'
-    LG(LA(K)): 'TOG MIC'
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
