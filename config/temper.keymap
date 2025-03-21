@@ -72,6 +72,16 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <180>;
         };
+
+        sk_mo: sk_mo {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SK_MO";
+            bindings = <&mo>, <&sk>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            flavor = "tap-preferred";
+        };
     };
 
     combos {
@@ -89,8 +99,8 @@
             layers = <0>;
         };
 
-        shiftnext {
-            bindings = <&sk LEFT_SHIFT>;
+        tabcombo {
+            bindings = <&kp TAB>;
             key-positions = <6 16>;
             layers = <0>;
         };
@@ -133,10 +143,10 @@
             label = "Base";
             display-name = "Base";
             bindings = <
-  &kp Q  &kp W  &kp F      &kp P        &kp B        &kp J        &kp L            &kp U      &kp Y    &kp SQT
-  &kp A  &kp R  &kp S      &kp T        &kp G        &kp M        &kp N            &kp E      &kp I    &kp O
-  &kp Z  &kp X  &kp C      &kp D        &kp V        &kp K        &kp H            &kp COMMA  &kp DOT  &kp SEMI
-                &lt 6 ESC  &lt 1 SPACE  &lt 2 TAB    &lt 3 ENTER  &lt 4 BACKSPACE  &lt 5 DEL
+  &kp Q  &kp W  &kp F      &kp P        &kp B                  &kp J        &kp L            &kp U      &kp Y    &kp SQT
+  &kp A  &kp R  &kp S      &kp T        &kp G                  &kp M        &kp N            &kp E      &kp I    &kp O
+  &kp Z  &kp X  &kp C      &kp D        &kp V                  &kp K        &kp H            &kp COMMA  &kp DOT  &kp SEMI
+                &lt 6 ESC  &lt 1 SPACE  &sk_mo 2 LEFT_SHIFT    &lt 3 ENTER  &lt 4 BACKSPACE  &lt 5 DEL
             >;
         };
 
