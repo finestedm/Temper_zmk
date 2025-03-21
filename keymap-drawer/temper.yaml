@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: temper}
 layers:
   Base:
   - Q
@@ -32,7 +33,7 @@ layers:
   - ;
   - {t: ESC, h: BLT}
   - {t: SPACE, h: NAV}
-  - {t: TAB, h: NUM}
+  - {t: LEFT SHIFT, h: NUM}
   - {t: ENTER, h: SYM}
   - {t: BACKSPACE, h: MOUSE}
   - {t: DEL, h: FUN}
@@ -266,7 +267,7 @@ combos:
   k: '&caps_word'
   l: [Base]
 - p: [6, 16]
-  k: {t: LEFT SHIFT, h: sticky}
+  k: TAB
   l: [Base]
 - p: [22, 23]
   k: CAPS

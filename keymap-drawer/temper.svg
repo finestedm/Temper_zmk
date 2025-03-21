@@ -261,7 +261,9 @@ path.combo {
 </a></g>
 <g transform="translate(293, 223) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">TAB</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">LEFT</tspan><tspan x="0" dy="1.2em">SHIFT</tspan>
+</text>
 <a href="#NUM">
 <text x="0" y="38" class="key hold layer-activator">NUM</text>
 </a></g>
@@ -295,10 +297,7 @@ path.combo {
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="518" y="50" width="28" height="26" class="combo"/>
-<text x="532" y="63" class="combo tap">
-<tspan x="532" dy="-0.6em">LEFT</tspan><tspan x="532" dy="1.2em">SHIFT</tspan>
-</text>
-<text x="532" y="74" class="combo hold">sticky</text>
+<text x="532" y="63" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
