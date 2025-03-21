@@ -155,7 +155,7 @@
             label = "NAV";
             bindings = <
   &sk LGUI      &sk LALT      &sk LCTRL  &sk LSHFT       &none        &kp INS    &kp HOME  &kp UP    &kp END    &kp PG_UP
-  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none        &kp CAPS   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN
+  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB      &kp CAPS   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN
   &kp LC(Z)     &kp LC(X)     &kp LC(C)  &kp LC(V)       &kp LC(Y)    &none      &none     &none     &none      &none
                               &trans     &none           &trans       &kp ENTER  &kp BSPC  &kp DEL
             >;
