@@ -48,11 +48,45 @@ For **Mouse** and **Navigation** layers, I needed a more ergonomic toggle option
   - **Single-handed use** (e.g., when using a mouse or holding a coffee).  
   - **Convenient layer switching** without disrupting workflow.  
 
+## Numbers Layer  
+- The **Numbers layer** is structured similarly to a numpad, prioritizing efficiency in numeric entry.  
+- **Top row:** `7 8 9`  
+- **Home row:** `4 5 6`  
+- **Bottom row:** `1 2 3`  
+- **Thumb cluster:** `0`, `.` (decimal), and `Enter`.  
+- Additional functions include `+`, `-`, `*`, `/`, and `=` for fast calculations.  
 
---- To Do ---
-# Navigation
-# Numbers
-# Symbols
-# Mouse
-# Fuction
-# Bluetooth (and Media)
+## Symbols Layer  
+- The **Symbols layer** includes frequently used programming and punctuation symbols.  
+- Layout follows a **logical grouping**:  
+  - `@`, `#`, `$`, `%`, `&`  
+  - `(`, `)`, `{`, `}`, `[`, `]`  
+  - `=`, `+`, `-`, `*`, `/`, `\`  
+  - Arrow keys are included on the right-hand side for quick navigation.  
+
+## Navigation Layer  
+- Provides **efficient text and file navigation** without moving hands from the home position.  
+- **Left hand:** Home, End, Page Up, Page Down.  
+- **Right hand:** Arrow keys in an inverted-T layout.  
+- Additional keys: `Ctrl+Arrow` shortcuts for faster word movement.  
+
+## Mouse Layer  
+- Designed for **precise control** over cursor movement.  
+- **Right-hand inverted-T movement** mirrors gaming muscle memory.  
+- **Left-hand shortcuts**: Left click, Right click, Middle click, Scroll.  
+- Additional keys: DPI adjustment and drag lock for easier selection.  
+
+## Function Layer  
+- Includes **F1-F12 keys** in a standard layout.  
+- Macro shortcuts: Custom scripts for automation.  
+
+## Bluetooth & Media Layer  
+- **Left hand:** Controls Bluetooth connections and device switching.  
+  - `BT1`, `BT2`, `BT3` for different devices.  
+  - `Pairing mode` shortcut.  
+- **Right hand:** Media control keys.  
+  - `Volume Up`, `Volume Down`, `Mute`.  
+  - `Play/Pause`, `Next Track`, `Previous Track`.  
+- The **Media Layer** allows quick control of music or video playback without disrupting workflow.  
+
+This structure ensures a **balanced, efficient workflow** across typing, navigation, programming, and mouse control while maintaining **ergonomic comfort**.
