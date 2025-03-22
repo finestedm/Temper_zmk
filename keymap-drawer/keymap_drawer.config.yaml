@@ -204,16 +204,16 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
-    '&kp LC(TAB)': Tab Right
-    '&kp LC(LS(TAB))': Tab Left
-    '&kp LA(F4)': Win Close
-    '&kp LC(F4)': Tab Close
-    '&kp LS(TAB)': Win Prev
-    '&kp LS(INS)': Paste
-    '&kp LC(C)': Copy
-    '&kp LC(X)': Cut
-    '&kp LC(Z)': Undo
-    '&kp LG(L)': Lock
+    LC(TAB): Tab Right
+    LC(LS(TAB)): Tab Left
+    LA(F4): Win Close
+    LC(F4): Tab Close
+    LS(TAB): Win Prev
+    LS(INS): Paste
+    LC(C): Copy
+    LC(X): Cut
+    LC(Z): Undo
+    LG(L): Lock
     
 
     '&out OUT_USB': Out USB
@@ -225,31 +225,30 @@ parse_config:
     '&bt BT_SEL 3': BT 4
     '&bt BT_SEL 4': BT 5
 
-    '&mmv MOVE_UP': Mouse ↑
-    '&mmv MOVE_DOWN': Mouse ↓
-    '&mmv MOVE_LEFT': Mouse ←
-    '&mmv MOVE_RIGHT': Mouse →
+    MOVE_UP: Mouse ↑
+    MOVE_DOWN: Mouse ↓
+    MOVE_LEFT: Mouse ←
+    MOVE_RIGHT: Mouse →
+    SCRL_UP: Scroll ↑
+    SCRL_DOWN: Scroll ↓
+    SCRL_LEFT: Scroll ←
+    SCRL_RIGHT: Scroll →
 
-    '&msc SCRL_UP': Scroll ↑
-    '&msc SCRL_DOWN': Scroll ↓
-    '&msc SCRL_LEFT': Scroll ←
-    '&msc SCRL_RIGHT': Scroll →
-
-    '&mkp LCLK': Left Click
-    '&mkp RCLK': Right Click
-    '&mkp MCLK': Middle Click
-    '&mkp MB4': Back Click
-    '&mkp MB5': Forward Click
-    '&kp LG(SPACE)': 'Lang'
-    '&kp LC(Z)': 'Undo'
-    '&kp LC(X)': 'Cut'
-    '&kp LC(C)': 'Copy'
-    '&kp LC(V)': 'Paste'
-    '&kp LC(Y)': 'Redo'
-    '&kp LS(LG(D))': 'Mini Map'
-    '&kp LG(LS(S))': 'Snip Img'
-    '&kp LS(LG(T))': 'Snip Text'
-    '&kp LG(LA(K))': 'Tog Mic'
+    LCLK: Left Click
+    RCLK: Right Click
+    MCLK: Middle Click
+    MB4: Back Click
+    MB5: Forward Click
+    LG(SPACE): Lang
+    LC(Z): Undo
+    LC(X): Cut
+    LC(C): Copy
+    LC(V): Paste
+    LC(Y): Redo
+    LS(LG(D)): Mini Map
+    LG(LS(S)): Snip Img
+    LS(LG(T)): Snip Text
+    LG(LA(K)): Tog Mic
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
