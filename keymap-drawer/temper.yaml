@@ -89,7 +89,7 @@ layers:
   - Alt
   - Ctrl
   - Shift
-  - Calc
+  - AL CALC
   - KP MINUS
   - '4'
   - '5'
@@ -249,8 +249,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Alt+K
-  - Vol Up
-  - Vol Down
+  - VOL UP
+  - VOL DN
   - {t: ▽, type: trans}
   - BT 5
   - {t: Esc, type: held}
