@@ -51,6 +51,7 @@ parse_config:
     '&bootloader': Boot
     '&swapper': Win Next
     '&caps_word': Caps Word
+    '&kp LG(SPACE)': Lang Switch
     '&inv_qm': ¿
     '&ind_bat': Show Batt
     '&ind_con': Show Conn
@@ -211,6 +212,7 @@ parse_config:
     RIGHT_ALT: AltGr
     
     LGUI: Win
+    LEFT_GUI: Win
     RGUI: Win
     RIGHT_GUI: Win
     
@@ -221,7 +223,8 @@ parse_config:
     ESC: Esc
     SPACE: ␣
     BSPC: ⌫
-    RET: ⏎
+    BACKSPACE: ⌫
+    ENTER: ⏎
     TAB: ↹
     DEL: ⌦
 
@@ -234,6 +237,11 @@ parse_config:
     PRINTSCREEN: Print Screen
     PSCRN: Print Screen
     PAUSE_BREAK: Pause Break
+    KP_PLUS: ➕
+    KP_MINUS: ➖
+    KP_MULTIPLY: ✖️
+    KP_DIVIDE: ➗
+    KP_EQUAL: 🟰
 
     UP: ↑
     DOWN: ↓
