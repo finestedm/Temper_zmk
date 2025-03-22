@@ -62,21 +62,24 @@ For **Mouse** and **Navigation** layers, I needed a more ergonomic toggle option
   - **Single-handed use** (e.g., when using a mouse or holding a coffee).  
   - **Convenient layer switching** without disrupting workflow.  
 
+All other layers contain a set of home row modifiers allowing the auto repeat on those keypresses on the triggering hand and a top row sticky modifiers for easier rolling actions shortcuts involving a single modifier.
+
 ## Numbers Layer  
-- The **Numbers layer** is structured similarly to a numpad, prioritizing efficiency in numeric entry.  
+The **Numbers layer** is structured similarly to a numpad, prioritizing efficiency in numeric entry and utilizing my existing muscle memory on numpads of other keyboards.  
 - **Top row:** `7 8 9`  
-- **Home row:** `4 5 6`  
+- **Home row:** `4 5 6 0` zero is nicely located in the home row pinky position. 
 - **Bottom row:** `1 2 3`  
-- **Thumb cluster:** `0`, `.` (decimal), and `Enter`.  
-- Additional functions include `+`, `-`, `*`, `/`, and `=` for fast calculations.  
+- Additional functions include `+`, `-`, `*`, `/`, and `=` for fast calculations in a single column.
+- Number toggle to get back to base.
 
 ## Symbols Layer  
-- The **Symbols layer** includes frequently used programming and punctuation symbols.  
+The **Symbols layer** includes frequently used programming and punctuation symbols.  
 - Layout follows a **logical grouping**:  
-  - `@`, `#`, `$`, `%`, `&`  
-  - `(`, `)`, `{`, `}`, `[`, `]`  
-  - `=`, `+`, `-`, `*`, `/`, `\`  
-  - Arrow keys are included on the right-hand side for quick navigation.  
+  - `=`, `&`, `*`, `^`, `'` easy to find pinky finger equal and quick bullets in middle finger.
+  - `!`, `@`, `#`, `$`, `%`  following a normal keyboard `1 2 3 4 5` shifted positions.
+  - `[`, `(`, `)`, `]`, `\` the parentesis and brackets are symmetrical as per the middle of the columns.
+  - `?`,`/` by having both thumbs rolling to give slash the character that was original on base Colemak-DH
+- On the right hand side there are braces and dashes in an easy location for single handed typing.  
 
 ## Navigation Layer  
 - Provides **efficient text and file navigation** without moving hands from the home position.  
@@ -92,16 +95,16 @@ For **Mouse** and **Navigation** layers, I needed a more ergonomic toggle option
 
 ## Function Layer  
 - Includes **F1-F12 keys** in a standard layout.  
-- Macro shortcuts: Custom scripts for automation.  
+- Macro shortcuts: Custom scripts for automation available from Microsoft Power Toys on the right hand side.
+- Mouse toggle to get back to base. 
 
 ## Bluetooth & Media Layer  
-- **Left hand:** Controls Bluetooth connections and device switching.  
-  - `BT1`, `BT2`, `BT3` for different devices.  
-  - `Pairing mode` shortcut.  
-- **Right hand:** Media control keys.  
-  - `Volume Up`, `Volume Down`, `Mute`.  
-  - `Play/Pause`, `Next Track`, `Previous Track`.  
-- The **Media Layer** allows quick control of music or video playback without disrupting workflow.  
+- **Left hand:**  
+  - `Boot` This allows to enter the bootloader to prep the keyboard for firmware flashing through usb type c. Found out that both the layer trigger and the boot button should be on the same split keyboard part or it wouldn't work.
+- **Right hand:** Media control keys and Bluetooth connections and device switching.  
+  - `Clear current bluetooth profile`, `BT1`, `BT2`, `BT3` , `BT4`, `BT5` for different devices.
+  - `Toggle Microfone`, `Volume Up`, `Volume Down`.  Here lives a windows `Win+Alt+K` shortcut for microphone toggle across device's apps, even when they do not have the active focus. 
+  - `Play/Pause`, `Next Track`, `Previous Track` The **Media Layer** allows quick control of music or video playback without disrupting workflow.  
 
 This structure ensures a **balanced, efficient workflow** across typing, navigation, programming, and mouse control while maintaining **ergonomic comfort**.
 
