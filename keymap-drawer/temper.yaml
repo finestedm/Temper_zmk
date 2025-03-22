@@ -34,8 +34,8 @@ layers:
   - {t: Esc, h: BLT}
   - {t: ␣, h: NAV}
   - {t: Shift, h: NUM}
-  - {t: ENTER, h: SYM}
-  - {t: BACKSPACE, h: MOUSE}
+  - {t: ⏎, h: SYM}
+  - {t: ⌫, h: MOUSE}
   - {t: ⌦, h: FUN}
   NAV:
   - {t: Win, h: sticky}
@@ -71,7 +71,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - ENTER
+  - ⏎
   - ⌫
   - ⌦
   NUM:
@@ -80,17 +80,17 @@ layers:
   - {t: Ctrl, h: sticky}
   - {t: Shift, h: sticky}
   - ''
-  - KP PLUS
+  - ➕
   - '7'
   - '8'
   - '9'
-  - KP EQUAL
+  - 🟰
   - Win
   - Alt
   - Ctrl
   - Shift
   - Calc
-  - KP MINUS
+  - ➖
   - '4'
   - '5'
   - '6'
@@ -100,7 +100,7 @@ layers:
   - ''
   - ''
   - ''
-  - KP MULTIPLY
+  - ✖️
   - '1'
   - '2'
   - '3'
@@ -109,7 +109,7 @@ layers:
   - ␣
   - {t: ↹, type: held}
   - {t: ▽, type: trans}
-  - KP DIVIDE
+  - ➗
   - {t: ▽, type: trans}
   SYM:
   - '='
@@ -182,7 +182,7 @@ layers:
   - Middle Click
   - Left Click
   - Right Click
-  - ENTER
+  - ⏎
   - {t: ⌫, type: held}
   - ⌦
   FUN:
@@ -219,11 +219,11 @@ layers:
   - APP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
+  - ⏎
   - ⌫
   - {t: ⌦, type: held}
   BLT:
-  - {t: LEFT GUI, h: sticky}
+  - {t: Win, h: sticky}
   - {t: Alt, h: sticky}
   - {t: Ctrl, h: sticky}
   - {t: Shift, h: sticky}
@@ -261,7 +261,7 @@ layers:
   - ⏭️
 combos:
 - p: [3, 13]
-  k: Gui+␣
+  k: Lang Switch
   l: [Base]
 - p: [26, 27]
   k: Caps Word
