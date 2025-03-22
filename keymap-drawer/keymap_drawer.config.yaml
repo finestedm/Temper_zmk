@@ -47,6 +47,49 @@ parse_config:
     '&inv_qm': ¿
     '&ind_bat': Show Batt
     '&ind_con': Show Conn
+    '&sys_reset': Reset
+    '&bootloader': Boot
+    '&swapper': Win Next
+    '&caps_word': Caps Word
+    '&inv_qm': ¿
+    '&ind_bat': Show Batt
+    '&ind_con': Show Conn
+
+    '&kp LC(TAB)': Tab Right
+    '&kp LC(LS(TAB))': Tab Left
+    '&kp LA(F4)': Win Close
+    '&kp LC(F4)': Tab Close
+    '&kp LS(TAB)': Win Prev
+    '&kp LS(INS)': Paste
+    '&kp LC(C)': Copy
+    '&kp LC(X)': Cut
+    '&kp LC(Z)': Undo
+    '&kp LG(L)': Lock
+
+    '&out OUT_USB': Out USB
+    '&out OUT_BLE': Out BLE
+
+    '&bt BT_SEL 0': BT 1
+    '&bt BT_SEL 1': BT 2
+    '&bt BT_SEL 2': BT 3
+    '&bt BT_SEL 3': BT 4
+    '&bt BT_SEL 4': BT 5
+
+    '&mmv MOVE_UP': Mouse ↑
+    '&mmv MOVE_DOWN': Mouse ↓
+    '&mmv MOVE_LEFT': Mouse ←
+    '&mmv MOVE_RIGHT': Mouse →
+
+    '&msc SCRL_UP': Scroll ↑
+    '&msc SCRL_DOWN': Scroll ↓
+    '&msc SCRL_LEFT': Scroll ←
+    '&msc SCRL_RIGHT': Scroll →
+
+    '&mkp LCLK': Left Click
+    '&mkp RCLK': Right Click
+    '&mkp MCLK': Middle Click
+    '&mkp MB4': Back Click
+    '&mkp MB5': Forward Click    
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
@@ -204,51 +247,44 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
-    LC(TAB): Tab Right
-    LC(LS(TAB)): Tab Left
-    LA(F4): Win Close
-    LC(F4): Tab Close
-    LS(TAB): Win Prev
-    LS(INS): Paste
-    LC(C): Copy
-    LC(X): Cut
-    LC(Z): Undo
-    LG(L): Lock
-    
+        # custom mappings
+    C_VOL_UP: Vol Up
+    C_VOL_DN: Vol Down
+    C_AL_CALC: Calc
+    C_PP: Play Pause
 
-    '&out OUT_USB': Out USB
-    '&out OUT_BLE': Out BLE
+    LCTRL: Ctrl
+    RCTRL: Ctrl
+    LALT: Alt
+    RALT: Alt
+    LGUI: Gui
+    RGUI: Gui
+    LSHFT: Shift
+    RSHFT: Shift
+    ESC: Esc
+    SPACE: ␣
+    BSPC: ⌫
+    RET: ⏎
+    TAB: ↹
+    DEL: ⌦
 
-    '&bt BT_SEL 0': BT 1
-    '&bt BT_SEL 1': BT 2
-    '&bt BT_SEL 2': BT 3
-    '&bt BT_SEL 3': BT 4
-    '&bt BT_SEL 4': BT 5
+    PG_UP: Page Up
+    PG_DN: Page Down
+    INS: Insert
+    HOME: Home
+    END: End
+    CAPS: Caps Lock
+    PSCRN: Print Scrn
+    PAUSE_BREAK: Pause Break
 
-    MOVE_UP: Mouse ↑
-    MOVE_DOWN: Mouse ↓
-    MOVE_LEFT: Mouse ←
-    MOVE_RIGHT: Mouse →
-    SCRL_UP: Scroll ↑
-    SCRL_DOWN: Scroll ↓
-    SCRL_LEFT: Scroll ←
-    SCRL_RIGHT: Scroll →
+    UP: ↑
+    DOWN: ↓
+    LEFT: ←
+    RIGHT: →
 
-    LCLK: Left Click
-    RCLK: Right Click
-    MCLK: Middle Click
-    MB4: Back Click
-    MB5: Forward Click
-    LG(SPACE): Lang
-    LC(Z): Undo
-    LC(X): Cut
-    LC(C): Copy
-    LC(V): Paste
-    LC(Y): Redo
-    LS(LG(D)): Mini Map
-    LG(LS(S)): Snip Img
-    LS(LG(T)): Snip Text
-    LG(LA(K)): Tog Mic
+    C_PP: ⏯
+    C_NEXT: ⏭️
+    C_PREV: ⏮️
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
