@@ -64,8 +64,14 @@ parse_config:
     '&kp LC(C)': Copy
     '&kp LC(X)': Cut
     '&kp LC(Z)': Undo
+    '&kp LC(Y)': Redo
+    '&kp LC(V)': Paste
     '&kp LG(L)': Lock
-
+    '&kp LG(LA(K))': Tog Mic
+    '&kp LS(LG(D))': Mini Map
+    '&kp LG(LS(S))': Snip Img
+    '&kp LS(LG(T))': Snip Text
+    
     '&out OUT_USB': Out USB
     '&out OUT_BLE': Out BLE
 
@@ -188,9 +194,9 @@ parse_config:
     TILDE2: '~'
     # custom mappings
     
-    # C_VOL_UP: Vol Up
-    # C_VOL_DN: Vol Down
-    # C_AL_CALC: Calc
+    C_VOL_UP: Vol Up
+    C_VOL_DN: Vol Down
+    C_AL_CALC: Calc
     # C_PP: Play Pause
     VOL_UP: Vol Up
     VOL_DN: Vol Down
@@ -200,10 +206,17 @@ parse_config:
     LCTRL: Ctrl
     RCTRL: Ctrl
     LALT: Alt
-    RALT: Alt
-    LGUI: Gui
-    RGUI: Gui
+    LEFT_ALT: Alt
+    RALT: AltGr
+    RIGHT_ALT: AltGr
+    
+    LGUI: Win
+    RGUI: Win
+    RIGHT_GUI: Win
+    
     LSHFT: Shift
+    LEFT_SHIFT: Shift
+    RIGHT_SHIFT: Shift
     RSHFT: Shift
     ESC: Esc
     SPACE: ␣
@@ -218,7 +231,8 @@ parse_config:
     HOME: Home
     END: End
     CAPS: Caps Lock
-    PSCRN: Print Scrn
+    PRINTSCREEN: Print Screen
+    PSCRN: Print Screen
     PAUSE_BREAK: Pause Break
 
     UP: ↑
@@ -226,7 +240,8 @@ parse_config:
     LEFT: ←
     RIGHT: →
 
-    C_PP: ⏯
+    C_PLAY_PAUSE: ⏯️
+    C_PP: ⏯️
     C_NEXT: ⏭️
     C_PREV: ⏮️
   zmk_combos: {}
