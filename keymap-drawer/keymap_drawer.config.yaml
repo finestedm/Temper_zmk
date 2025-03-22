@@ -254,7 +254,7 @@ parse_config:
     C_NEXT: ⏭️
     C_PREV: ⏮️
   zmk_combos: 
-    togmouse: {"align": "top", "offset": 0.5}
-    tognav: {"align": "top", "offset": 0.5}
+    togmouse: {"align": "top", "offset": 1}
+    tognav: {"align": "top", "offset": 1}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
