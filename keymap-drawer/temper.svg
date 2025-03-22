@@ -296,9 +296,7 @@ path.combo { stroke: #7f7f7f; }
 </a></g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="182" y="50" width="28" height="26" class="combo"/>
-<text x="196" y="63" class="combo tap">
-<tspan x="196" dy="-0.6em">Gui+</tspan><tspan x="196" dy="1.2em">SPACE</tspan>
-</text>
+<text x="196" y="63" class="combo tap">Lang</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="546" y="130" width="28" height="26" class="combo"/>
@@ -442,23 +440,23 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(28, 161)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+Z</text>
+<text x="0" y="0" class="key tap">Undo</text>
 </g>
 <g transform="translate(84, 147)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+X</text>
+<text x="0" y="0" class="key tap">Cut</text>
 </g>
 <g transform="translate(140, 140)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+C</text>
+<text x="0" y="0" class="key tap">Copy</text>
 </g>
 <g transform="translate(196, 147)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+V</text>
+<text x="0" y="0" class="key tap">Paste</text>
 </g>
 <g transform="translate(252, 154)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+Y</text>
+<text x="0" y="0" class="key tap">Redo</text>
 </g>
 <g transform="translate(476, 154)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -859,7 +857,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(476, 42)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Sft+Gui</tspan><tspan x="0" dy="1.2em">+D</tspan>
+<tspan x="0" dy="-0.6em">Mini</tspan><tspan x="0" dy="1.2em">Map</tspan>
 </text>
 </g>
 <g transform="translate(532, 35)" class="key keypos-6">
@@ -921,7 +919,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(476, 98)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Gui+Sft</tspan><tspan x="0" dy="1.2em">+S</tspan>
+<tspan x="0" dy="-0.6em">Snip</tspan><tspan x="0" dy="1.2em">Img</tspan>
 </text>
 </g>
 <g transform="translate(532, 91)" class="key keypos-16">
@@ -942,28 +940,28 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(28, 161)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+Z</text>
+<text x="0" y="0" class="key tap">Undo</text>
 </g>
 <g transform="translate(84, 147)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+X</text>
+<text x="0" y="0" class="key tap">Cut</text>
 </g>
 <g transform="translate(140, 140)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+C</text>
+<text x="0" y="0" class="key tap">Copy</text>
 </g>
 <g transform="translate(196, 147)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+V</text>
+<text x="0" y="0" class="key tap">Paste</text>
 </g>
 <g transform="translate(252, 154)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+Y</text>
+<text x="0" y="0" class="key tap">Redo</text>
 </g>
 <g transform="translate(476, 154)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Sft+Gui</tspan><tspan x="0" dy="1.2em">+T</tspan>
+<tspan x="0" dy="-0.6em">Snip</tspan><tspan x="0" dy="1.2em">Text</tspan>
 </text>
 </g>
 <g transform="translate(532, 147)" class="key keypos-26">
@@ -1296,7 +1294,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(476, 154)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Gui+Alt</tspan><tspan x="0" dy="1.2em">+K</tspan>
+<tspan x="0" dy="-0.6em">Tog</tspan><tspan x="0" dy="1.2em">Mic</tspan>
 </text>
 </g>
 <g transform="translate(532, 147)" class="key keypos-26">

@@ -58,11 +58,11 @@ layers:
   - DOWN
   - RIGHT
   - PG DN
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - Ctl+Y
+  - Undo
+  - Cut
+  - Copy
+  - Paste
+  - Redo
   - ''
   - ''
   - ''
@@ -154,7 +154,7 @@ layers:
   - '&mmv MOVE_UP'
   - '&msc SCRL_RIGHT'
   - '&mkp MB4'
-  - Sft+Gui+D
+  - Mini Map
   - {t: RIGHT SHIFT, h: sticky}
   - {t: RCTRL, h: sticky}
   - {t: LEFT ALT, h: sticky}
@@ -164,17 +164,17 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mkp MB5'
-  - Gui+Sft+S
+  - Snip Img
   - RSHFT
   - RCTRL
   - LALT
   - RGUI
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - Ctl+Y
-  - Sft+Gui+T
+  - Undo
+  - Cut
+  - Copy
+  - Paste
+  - Redo
+  - Snip Text
   - ''
   - ''
   - RALT
@@ -248,7 +248,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Alt+K
+  - Tog Mic
   - VOL UP
   - VOL DN
   - {t: ▽, type: trans}
@@ -261,7 +261,7 @@ layers:
   - NEXT
 combos:
 - p: [3, 13]
-  k: Gui+SPACE
+  k: Lang
   l: [Base]
 - p: [26, 27]
   k: Caps Word
