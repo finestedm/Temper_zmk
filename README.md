@@ -14,7 +14,8 @@
 5. [Navigation Layer](#navigation-layer)
 6. [Mouse Layer](#mouse-layer)
 7. [Function Layer](#function-layer)
-8. [Bluetooth & Media Layer](#bluetooth-media-layer)
+8. [Bluetooth & Media Layer](#bluetooth-&-media-layer)
+9. [Photos](#photos)
 
 ## Base Layout  
 The foundation is **Colemak-DH**, with additional modifications on the right hand.  
@@ -108,3 +109,12 @@ The **Symbols layer** includes frequently used programming and punctuation symbo
 
 This structure ensures a **balanced, efficient workflow** across typing, navigation, programming, and mouse control while maintaining **ergonomic comfort**.
 
+## Photos
+![photo01](photos/IMG_20250310_170347.jpg)
+![photo02](photos/IMG_20250310_170352.jpg)
+![photo03](photos/IMG_20250310_193301.jpg)
+![photo04](photos/IMG_20250310_193310.jpg)
+![photo05](photos/IMG_20250310_193332.jpg)
+![photo06](photos/IMG_20250310_193345.jpg)
+![photo07](photos/IMG_20250310_193424.jpg)
+![photo08](photos/IMG_20250310_193434.jpg)
