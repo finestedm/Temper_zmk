@@ -235,6 +235,7 @@ parse_config:
     END: End
     CAPS: Caps Lock
     PRINTSCREEN: Print Screen
+    SLCK: Scroll Lock
     PSCRN: Print Screen
     PAUSE_BREAK: Pause Break
     KP_PLUS: ➕
