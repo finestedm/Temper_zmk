@@ -14,7 +14,7 @@
 5. [Navigation Layer](#navigation-layer)
 6. [Mouse Layer](#mouse-layer)
 7. [Function Layer](#function-layer)
-8. [Bluetooth & Media Layer](#bluetooth-&amp;-media-layer)
+8. [Bluetooth Media Layer](#bluetooth-media-layer)
 9. [Photos](#photos)
 
 ## Base Layout  
@@ -99,7 +99,7 @@ The **Symbols layer** includes frequently used programming and punctuation symbo
 - Macro shortcuts: Custom scripts for automation available from Microsoft Power Toys on the right hand side.
 - Mouse toggle to get back to base. 
 
-## Bluetooth & Media Layer  
+## Bluetooth Media Layer  
 - **Left hand:**  
   - `Boot` This allows to enter the bootloader to prep the keyboard for firmware flashing through usb type c. Found out that both the layer trigger and the boot button should be on the same split keyboard part or it wouldn't work.
 - **Right hand:** Media control keys and Bluetooth connections and device switching.  
