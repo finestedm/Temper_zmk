@@ -14,7 +14,7 @@
 5. [Navigation Layer](#navigation-layer)
 6. [Mouse Layer](#mouse-layer)
 7. [Function Layer](#function-layer)
-8. [Bluetooth & Media Layer](#bluetooth-&-media-layer)
+8. [Bluetooth & Media Layer](#bluetooth-&amp;-media-layer)
 9. [Photos](#photos)
 
 ## Base Layout  
