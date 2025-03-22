@@ -2,6 +2,20 @@
 
 # Keyboard Layout Documentation
 
+## Table of Contents
+1. [Base Layout](#base-layout)
+2. [Thumb Clusters](#thumb-clusters)
+   - [On Tap](#on-tap)
+   - [On Hold](#on-hold)
+   - [Two-Key Combos](#two-key-combos)
+   - [Three-Key Combos (Layer Toggles)](#three-key-combos-layer-toggles)
+3. [Numbers Layer](#numbers-layer)
+4. [Symbols Layer](#symbols-layer)
+5. [Navigation Layer](#navigation-layer)
+6. [Mouse Layer](#mouse-layer)
+7. [Function Layer](#function-layer)
+8. [Bluetooth & Media Layer](#bluetooth-media-layer)
+
 ## Base Layout  
 The foundation is **Colemak-DH**, with additional modifications on the right hand.  
 - Instead of `/` on the bottom-row pinky key, there is `;`, which in Greek is used for accenting letters (e.g., ά, έ, ί, ό, ή, ύ, ώ) and shifted accents like ϊ.  
@@ -29,7 +43,7 @@ The foundation is **Colemak-DH**, with additional modifications on the right han
 - Since the **Numbers layer** is used frequently, it shouldn't be placed in the inner palm position. Instead, it occupies the **left outer palm key**, keeping **Navigation** in the **neutral thumb position**.  
 - This change led to placing the **Mouse trigger** in the **right-hand neutral thumb position**, as it mirrors the **inverted-T movement pattern** I use in games with my left hand.  
 
-## Two-Key Combos  
+### Two-Key Combos  
 Having **Choc switches and flat keycaps** enables comfortable multi-key presses with a single finger.  
 
 - **Single middle-left finger (`F`, `S`)** → Activates a **single digit** from the **Numbers layer** and returns to base.  
@@ -40,7 +54,7 @@ Since **Tab** was moved to the left outer thumb key, I needed a **quick-access T
 - **Single right index finger (`L`, `N`)** → **Tab**  
 - **Single left index finger (`P`, `T`)** → **Switch language (`Win+Space` / `Alt+Shift`)**, allowing seamless Greek-English transitions within a sentence.  
 
-## Three-Key Combos (Layer Toggles)  
+### Three-Key Combos (Layer Toggles)  
 For **Mouse** and **Navigation** layers, I needed a more ergonomic toggle option, as I spend extended time in these modes while browsing or navigating files.  
 
 - A **three-key, three-finger combo** was created for each layer, using dominant fingers in their **neutral positions**.  
@@ -90,3 +104,4 @@ For **Mouse** and **Navigation** layers, I needed a more ergonomic toggle option
 - The **Media Layer** allows quick control of music or video playback without disrupting workflow.  
 
 This structure ensures a **balanced, efficient workflow** across typing, navigation, programming, and mouse control while maintaining **ergonomic comfort**.
+
