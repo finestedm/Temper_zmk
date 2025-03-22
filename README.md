@@ -1,39 +1,52 @@
 ![Diagram of config](keymap-drawer/temper.svg)
 
 # Base
-## Colemak-DH with some more edits on the right hand.
-Instead of '/' on the pinky bottom row there is ';' which is used in Greek for accents of letters ά,έ,ί,ό,ή,ύ,ώ and shifted accents like ϊ etc.
-Instead of ';' on the pinky top row there is ' ' '.
-This base layout don't have home row mods, as it is build for speed and not accidental hits of modifiers while typing and switching languages even in the same sentence between Greek and English.
+## Colemak-DH (edited)
+The foundation is Colemak-DH, with additional modifications on the right hand.
+
+* Instead of / on the bottom-row pinky key, there is ;, which in Greek is used for accenting letters (e.g., ά, έ, ί, ό, ή, ύ, ώ) and shifted accents like ϊ.
+* Instead of ; on the top-row pinky key, there is '.
+* This layout does not include home-row mods, as it is designed for speed, minimizing accidental modifier activations while typing or switching between Greek and English—even within the same sentence.
 
 ## Thumb clusters
 ### On tap
-**Esc, Space, Shift next character | Enter, Backspace, Delete**
-The neutral thumb positions are used for the most common keypresses like Space and Backspace.
-The outer palm (fast/not accurate) positions are used for shift next, like capitalizing the first letter of a word in a rolling motion and for enter to be easy to create new lines.
-The inner palm (slow/hard to reach) positions are used for less common keypresses or keypresses that I don't want to hit accidentally like escape and delete.
-Strong influence from miryoku layout here, although I chose to switch Tab in the left outer palm thumb key with Shift Next character. 
+**Left: Esc, Space, Shift-next-character
+Right: Enter, Backspace, Delete**
+
+* Neutral thumb positions (easiest to reach) are assigned to Space and Backspace, as they are the most frequently used.
+* Outer thumb positions (faster but less precise) are used for Shift-next-character (e.g., capitalizing the first letter in a rolling motion) and Enter (for quick new-line creation).
+* Inner thumb positions (harder to reach) are used for Escape and Delete, as they are less common and should not be hit accidentally.
+* The layout is strongly influenced by Miryoku, though Tab was replaced with Shift-next-character on the left outer thumb key.
 
 ### On hold
-**Layers momentarily activations Bluetooth, Navigation, Numbers | Symbols, Mouse, Function**
-Inspired by the logic of miryoku while the thumb of one hand activates a layer and the other hands has access to that layers main keypresses and combos.
-A typical miryoku layout has Media, Nav, Mouse | Sym, Num, Fun. My setup, though, is a bit different switching Numbers and Mouse momentary triggers.
-I found it weird to type numbers with my left hand so Num had to move to the left thumb cluster. But because it is commonly used it shouldn't go in the inner palm. So my selection was to go to the outer palm key in order to keep navigation in the neutral thumb position. This drive me to move Mouse trigger in the right hand neutral thumb position that made sense as I was used to "move" in games in an inverted T manner with my left hand.
+**Left: Bluetooth, Navigation, Numbers
+Right: Symbols, Mouse, Function**
 
-### Combos two keys
-Having a choc and flat keycap allows for single finger multi key press.
+* Inspired by Miryoku, where one thumb activates a layer while the other hand uses that layer's main keys and combos.
+* Standard Miryoku assigns Media, Navigation, Mouse on the left and Symbols, Numbers, Function on the right.
+* However, I swapped Numbers and Mouse because I found it unnatural to type numbers with my left hand.
+* Since the Numbers layer is used frequently, it shouldn't be placed in the inner palm position. Instead, it occupies the left outer palm key, keeping Navigation in the neutral thumb position.
+* This change led to placing the Mouse trigger in the right-hand neutral thumb position, as it mirrors the inverted-T movement pattern I use in games with my left hand.
 
-Single middle left hand finger combo F, S gives me access to a single digit from the num layer and returns to base.
-Single middle right hand finger combo U, E gives me access to a single digit from the sym layer and returns to base.
-Note here that both the sticky and the momentarily switch triggers to nav and sym layers are consistent to the side from which they are triggered.
+### Two-Key Combos
+Having Choc switches and flat keycaps enables comfortable multi-key presses with a single finger.
 
-Having switched Tab in the left outer palm thumb key with Shift Next character I was in need of a quick Tab keypress. This is hosted under single right index finger two key combo on L, N.
-Being in need of typing between Greek and English even in the same sentence and the windows shortcut for language switch being win+space or alt+shift I hosted this under a single left index finger two key combo on P, T.
+* Single middle-left finger (F, S) → Activates a single digit from the Numbers layer and returns to base.
+* Single middle-right finger (U, E) → Activates a single digit from the Symbols layer and returns to base.
+* Both momentary and sticky layer triggers remain consistent with the hand used to activate them.
 
-### Combos three keys (layer toggles)
-I needed some less straining option for toggling the layers of mouse and navigation where I would be probably spend a lot of time while browsing pages and documents or navigation file folders.
-So a three key - three finger combor for each layer was created with the dominant fingers involved in their neutral position.
-Note here that the layer toggle triggers exists in the part of the keyboard where the mouse and navigation options live, to provide a single handed use if needed in case I am using a mouse while navigating or holding my coffee while mouse-emulate browsing.
+Since Tab was moved to the left outer thumb key, I needed a quick-access Tab key:
+
+* Single right index finger (L, N) → Tab
+* Single left index finger (P, T) → Switch language (Win+Space / Alt+Shift), allowing seamless Greek-English transitions within a sentence.
+
+### Three-Key Combos (Layer Toggles)
+For Mouse and Navigation layers, I needed a more ergonomic toggle option, as I spend extended time in these modes while browsing or navigating files.
+
+* A three-key, three-finger combo was created for each layer, using dominant fingers in their neutral positions.
+* These toggle triggers are placed within the Mouse and Navigation key zones, allowing:
+** Single-handed use (e.g., when using a mouse or holding a coffee).
+** Convenient layer switching without disrupting workflow.
 
 --- To Do ---
 # Navigation
