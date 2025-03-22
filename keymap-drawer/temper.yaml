@@ -33,12 +33,12 @@ layers:
   - ;
   - {t: Esc, h: BLT}
   - {t: ␣, h: NAV}
-  - {t: LEFT SHIFT, h: NUM}
+  - {t: Shift, h: NUM}
   - {t: ENTER, h: SYM}
   - {t: BACKSPACE, h: MOUSE}
   - {t: ⌦, h: FUN}
   NAV:
-  - {t: Gui, h: sticky}
+  - {t: Win, h: sticky}
   - {t: Alt, h: sticky}
   - {t: Ctrl, h: sticky}
   - {t: Shift, h: sticky}
@@ -49,9 +49,9 @@ layers:
   - End
   - Page Up
   - LEFT WIN
-  - LEFT ALT
+  - Alt
   - Ctrl
-  - LEFT SHIFT
+  - Shift
   - ↹
   - Caps Lock
   - ←
@@ -61,8 +61,8 @@ layers:
   - Undo
   - Cut
   - Copy
-  - Ctl+V
-  - Ctl+Y
+  - Paste
+  - Redo
   - ''
   - ''
   - ''
@@ -75,7 +75,7 @@ layers:
   - ⌫
   - ⌦
   NUM:
-  - {t: Gui, h: sticky}
+  - {t: Win, h: sticky}
   - {t: Alt, h: sticky}
   - {t: Ctrl, h: sticky}
   - {t: Shift, h: sticky}
@@ -85,11 +85,11 @@ layers:
   - '8'
   - '9'
   - KP EQUAL
-  - Gui
+  - Win
   - Alt
   - Ctrl
   - Shift
-  - AL CALC
+  - Calc
   - KP MINUS
   - '4'
   - '5'
@@ -118,10 +118,10 @@ layers:
   - ^
   - '`'
   - ''
-  - {t: RIGHT SHIFT, h: sticky}
+  - {t: Shift, h: sticky}
   - {t: Ctrl, h: sticky}
-  - {t: LEFT ALT, h: sticky}
-  - {t: RIGHT GUI, h: sticky}
+  - {t: Alt, h: sticky}
+  - {t: Win, h: sticky}
   - '!'
   - '@'
   - '#'
@@ -131,7 +131,7 @@ layers:
   - Shift
   - Ctrl
   - Alt
-  - Gui
+  - Win
   - '['
   - (
   - )
@@ -140,7 +140,7 @@ layers:
   - '}'
   - '-'
   - _
-  - Alt
+  - AltGr
   - ''
   - {t: ▽, type: trans}
   - '?'
@@ -154,30 +154,30 @@ layers:
   - Mouse ↑
   - Scroll →
   - Back Click
-  - Sft+Gui+D
-  - {t: RIGHT SHIFT, h: sticky}
+  - Mini Map
+  - {t: Shift, h: sticky}
   - {t: Ctrl, h: sticky}
-  - {t: LEFT ALT, h: sticky}
-  - {t: RIGHT GUI, h: sticky}
+  - {t: Alt, h: sticky}
+  - {t: Win, h: sticky}
   - Scroll ↓
   - Mouse ←
   - Mouse ↓
   - Mouse →
   - Forward Click
-  - Gui+Sft+S
+  - Snip Img
   - Shift
   - Ctrl
   - Alt
-  - Gui
+  - Win
   - Undo
   - Cut
   - Copy
-  - Ctl+V
-  - Ctl+Y
-  - Sft+Gui+T
+  - Paste
+  - Redo
+  - Snip Text
   - ''
   - ''
-  - Alt
+  - AltGr
   - ''
   - Middle Click
   - Left Click
@@ -192,20 +192,20 @@ layers:
   - F9
   - Pause Break
   - ''
-  - {t: RIGHT SHIFT, h: sticky}
+  - {t: Shift, h: sticky}
   - {t: Ctrl, h: sticky}
-  - {t: LEFT ALT, h: sticky}
-  - {t: RIGHT GUI, h: sticky}
+  - {t: Alt, h: sticky}
+  - {t: Win, h: sticky}
   - F11
   - F4
   - F5
   - F6
-  - PRINTSCREEN
+  - Print Screen
   - ''
   - Shift
   - Ctrl
   - Alt
-  - Gui
+  - Win
   - F10
   - F1
   - F2
@@ -214,7 +214,7 @@ layers:
   - ''
   - ''
   - ''
-  - Alt
+  - AltGr
   - ''
   - APP
   - {t: ▽, type: trans}
@@ -224,16 +224,16 @@ layers:
   - {t: ⌦, type: held}
   BLT:
   - {t: LEFT GUI, h: sticky}
-  - {t: LEFT ALT, h: sticky}
+  - {t: Alt, h: sticky}
   - {t: Ctrl, h: sticky}
-  - {t: LEFT SHIFT, h: sticky}
+  - {t: Shift, h: sticky}
   - Boot
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui
+  - Win
   - Alt
   - Ctrl
   - Shift
@@ -244,19 +244,19 @@ layers:
   - BT 3
   - BT 4
   - {t: ▽, type: trans}
-  - Alt
+  - AltGr
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Alt+K
-  - VOL UP
-  - VOL DN
+  - Tog Mic
+  - Vol Up
+  - Vol Down
   - {t: ▽, type: trans}
   - BT 5
   - {t: Esc, type: held}
   - ␣
   - ↹
-  - PLAY PAUSE
+  - ⏯️
   - ⏮️
   - ⏭️
 combos:
