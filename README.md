@@ -90,14 +90,13 @@ The **Symbols layer** includes frequently used programming and punctuation symbo
 
 ## Mouse Layer  
 - Designed for **precise control** over cursor movement.  
-- **Right-hand inverted-T movement** mirrors gaming muscle memory.  
-- **Left-hand shortcuts**: Left click, Right click, Middle click, Scroll.  
-- Additional keys: DPI adjustment and drag lock for easier selection.  
+- **Left-hand inverted-T movement** mirrors gaming muscle memory.  
+- **Left-hand shortcuts**: Left click, Right click, Middle click, Scroll and extra mouse buttons for browsing.  
+- Mouse toggle to get back to base.  
 
 ## Function Layer  
 - Includes **F1-F12 keys** in a standard layout.  
 - Macro shortcuts: Custom scripts for automation available from Microsoft Power Toys on the right hand side.
-- Mouse toggle to get back to base. 
 
 ## Bluetooth Media Layer  
 - **Left hand:**  
