@@ -251,7 +251,7 @@ parse_config:
 
     C_PLAY_PAUSE: ⏯
     C_PP: ⏯
-    C_NEXT: 'fa fa-forward'
+    C_NEXT: ⏭
     C_PREV: ⏮
   zmk_combos: 
     togmouse: {"align": "top", "offset": -1}
