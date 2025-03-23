@@ -256,9 +256,9 @@ layers:
   - {t: Esc, type: held}
   - ␣
   - ↹
-  - ⏯️
-  - ⏮️
-  - ⏭️
+  - ⏯
+  - ⏮
+  - fa fa-forward
 combos:
 - p: [3, 13]
   k: Lang Switch
