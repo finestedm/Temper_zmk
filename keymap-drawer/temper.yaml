@@ -68,9 +68,9 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
+  - Esc
+  - {t: ␣, type: held}
+  - Lang Switch
   - ⏎
   - ⌫
   - ⌦
@@ -79,7 +79,7 @@ layers:
   - {t: Alt, h: sticky}
   - {t: Ctrl, h: sticky}
   - {t: Shift, h: sticky}
-  - ''
+  - Alt+Sft+↹
   - ➕
   - '7'
   - '8'
@@ -95,11 +95,11 @@ layers:
   - '5'
   - '6'
   - '0'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Gui+Z
+  - Alt+=
+  - Ctl+1
+  - Ctl+Sft+V
+  - Alt+↹
   - ✖️
   - '1'
   - '2'
@@ -108,15 +108,15 @@ layers:
   - Esc
   - ␣
   - {t: ↹, type: held}
-  - {t: ▽, type: trans}
+  - ⏎
   - ➗
-  - {t: ▽, type: trans}
+  - ⌫
   SYM:
-  - '='
+  - '`'
   - '&'
   - '*'
   - ^
-  - '`'
+  - '='
   - ''
   - {t: Shift, h: sticky}
   - {t: Ctrl, h: sticky}
@@ -142,12 +142,12 @@ layers:
   - _
   - AltGr
   - ''
-  - {t: ▽, type: trans}
+  - Esc
   - '?'
   - /
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+⌫
+  - Ctl+⌦
   MOUSE:
   - Scroll ↑
   - Scroll ←
@@ -217,8 +217,8 @@ layers:
   - AltGr
   - ''
   - APP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+F11
+  - Alt+F12
   - ⏎
   - ⌫
   - {t: ⌦, type: held}
@@ -255,7 +255,7 @@ layers:
   - BT 5
   - {t: Esc, type: held}
   - ␣
-  - ↹
+  - Alt+↹
   - ⏯
   - ⏮
   - ⏭
