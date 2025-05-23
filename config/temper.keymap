@@ -154,10 +154,10 @@
             display-name = "NAV";
             label = "NAV";
             bindings = <
-  &sk LGUI   &sk LALT      &sk LCTRL  &sk LSHFT       &none            &kp INS    &kp HOME  &kp UP    &kp END    &kp PG_UP
-  &kp LGUI   &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB          &kp CAPS   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN
-  &kp LC(Z)  &kp LC(X)     &kp LC(C)  &kp LC(V)       &kp LC(Y)        &none      &none     &none     &none      &none
-                           &kp ESC    &kp SPACE       &kp LG(SPACE)    &kp ENTER  &kp BSPC  &kp DEL
+  &sk LGUI   &sk LALT      &sk LCTRL  &sk LSHFT       &none            &kp INS        &kp HOME  &kp UP    &kp END    &kp PG_UP
+  &kp LGUI   &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB          &kp CAPS       &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN
+  &kp LC(Z)  &kp LC(X)     &kp LC(C)  &kp LC(V)       &kp LC(Y)        &none          &none     &none     &none      &none
+                           &kp ESC    &kp SPACE       &kp LG(SPACE)    &kp LG(SPACE)  &kp BSPC  &kp DEL
             >;
         };
 
@@ -166,7 +166,7 @@
   &sk LGUI   &sk LALT       &sk LCTRL         &sk LSHFT      &kp LA(LS(TAB))    &kp KP_PLUS      &kp N7         &kp N8         &kp N9  &kp KP_EQUAL
   &kp LGUI   &kp LALT       &kp LCTRL         &kp LSHFT      &kp C_AL_CALC      &kp KP_MINUS     &kp N4         &kp N5         &kp N6  &kp N0
   &kp LG(Z)  &kp LA(EQUAL)  &kp LC(NUMBER_1)  &kp LC(LS(V))  &kp LA(TAB)        &kp KP_MULTIPLY  &kp N1         &kp N2         &kp N3  &kp PRCNT
-                            &kp ESC           &kp SPACE      &kp TAB            &kp ENTER        &kp KP_DIVIDE  &kp BACKSPACE
+                            &kp ESC           &kp SPACE      &kp TAB            &kp TAB          &kp KP_DIVIDE  &kp BACKSPACE
             >;
 
             label = "NUM";
@@ -176,9 +176,9 @@
             label = "SYM";
             display-name = "SYM";
             bindings = <
-  &kp GRAVE         &kp AMPERSAND         &kp STAR               &kp CARET          &kp EQUAL      &none            &sk RIGHT_SHIFT    &sk RCTRL    &sk LEFT_ALT  &sk RIGHT_GUI
-  &kp EXCL          &kp AT                &kp HASH               &kp DOLLAR         &kp PERCENT    &kp LEFT_BRACE   &kp RSHFT          &kp RCTRL    &kp LALT      &kp RGUI
-  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BSLH       &kp RIGHT_BRACE  &kp MINUS          &kp UNDER    &kp RALT      &none
+  &kp GRAVE         &kp AMPERSAND         &kp STAR               &kp CARET          &kp EQUAL      &kp LEFT_BRACE   &kp MINUS          &sk RCTRL    &sk LEFT_ALT  &sk RIGHT_GUI
+  &kp EXCL          &kp AT                &kp HASH               &kp DOLLAR         &kp PERCENT    &kp TAB          &kp RSHFT          &kp RCTRL    &kp LALT      &kp RGUI
+  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BSLH       &kp RIGHT_BRACE  &kp UNDER          &kp PIPE     &kp RALT      &none
                                           &kp ESC                &kp QUESTION       &kp SLASH      &trans           &kp LC(BACKSPACE)  &kp LC(DEL)
             >;
         };
