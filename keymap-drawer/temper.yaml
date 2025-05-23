@@ -71,7 +71,7 @@ layers:
   - Esc
   - {t: ␣, type: held}
   - Lang Switch
-  - ⏎
+  - Lang Switch
   - ⌫
   - ⌦
   NUM:
@@ -108,7 +108,7 @@ layers:
   - Esc
   - ␣
   - {t: ↹, type: held}
-  - ⏎
+  - ↹
   - ➗
   - ⌫
   SYM:
@@ -117,8 +117,8 @@ layers:
   - '*'
   - ^
   - '='
-  - ''
-  - {t: Shift, h: sticky}
+  - '{'
+  - '-'
   - {t: Ctrl, h: sticky}
   - {t: Alt, h: sticky}
   - {t: Win, h: sticky}
@@ -127,7 +127,7 @@ layers:
   - '#'
   - $
   - '%'
-  - '{'
+  - ↹
   - Shift
   - Ctrl
   - Alt
@@ -138,8 +138,8 @@ layers:
   - ']'
   - \
   - '}'
-  - '-'
   - _
+  - '|'
   - AltGr
   - ''
   - Esc
