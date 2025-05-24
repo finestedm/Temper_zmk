@@ -70,10 +70,10 @@ layers:
   - ''
   - Esc
   - {t: ␣, type: held}
+  - ⏎
   - Lang Switch
-  - Lang Switch
-  - ⌫
-  - ⌦
+  - Ctl+⌫
+  - Ctl+⌦
   NUM:
   - {t: Win, h: sticky}
   - {t: Alt, h: sticky}
@@ -107,7 +107,7 @@ layers:
   - '%'
   - Esc
   - ␣
-  - {t: ↹, type: held}
+  - {type: held}
   - ↹
   - ➗
   - ⌫
@@ -221,7 +221,7 @@ layers:
   - Alt+F12
   - ⏎
   - ⌫
-  - {t: ⌦, type: held}
+  - {type: held}
   BLT:
   - {t: Win, h: sticky}
   - {t: Alt, h: sticky}
@@ -229,31 +229,31 @@ layers:
   - {t: Shift, h: sticky}
   - Boot
   - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - Win
   - Alt
   - Ctrl
   - Shift
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - BT 1
   - BT 2
   - BT 3
   - BT 4
-  - {t: ▽, type: trans}
+  - ''
   - AltGr
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - Tog Mic
   - Vol Up
   - Vol Down
-  - {t: ▽, type: trans}
+  - ''
   - BT 5
-  - {t: Esc, type: held}
+  - {type: held}
   - ␣
   - Alt+↹
   - ⏯
