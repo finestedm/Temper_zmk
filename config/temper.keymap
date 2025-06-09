@@ -22,10 +22,12 @@
             time-to-max-speed-ms = <40>; // 40
             delay-ms = <0>; // 0
         }; 
-         precision {
-                layers = <1>;
-                input-processors = <&zip_xy_scaler 1 4>;
+        &mmv_input_listener {
+            precision {
+                    layers = <1>;
+                    input-processors = <&zip_xy_scaler 1 4>;
             };
+        };
         hm: hm {
             compatible = "zmk,behavior-hold-tap";
             label = "HM";
@@ -143,7 +145,6 @@
         compatible = "zmk,keymap";
 
         base {
-            label = "Base";
             display-name = "Base";
             bindings = <
   &kp Q  &kp W  &kp F      &kp P        &kp B                  &kp J        &kp L            &kp U      &kp Y    &kp SQT
@@ -155,7 +156,6 @@
 
         nav {
             display-name = "NAV";
-            label = "NAV";
             bindings = <
   &sk LGUI   &sk LALT      &sk LCTRL  &sk LSHFT       &none        &kp INS        &kp HOME      &kp UP       &kp END    &kp PG_UP
   &kp LGUI   &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB      &kp CAPS       &kp LEFT      &kp DOWN     &kp RIGHT  &kp PG_DN
@@ -165,18 +165,16 @@
         };
 
         num {
+            display-name = "NUM";
             bindings = <
   &sk LGUI   &sk LALT       &sk LCTRL         &sk LSHFT      &kp LA(LS(TAB))    &kp KP_PLUS      &kp N7         &kp N8         &kp N9  &kp KP_EQUAL
   &kp LGUI   &kp LALT       &kp LCTRL         &kp LSHFT      &kp C_AL_CALC      &kp KP_MINUS     &kp N4         &kp N5         &kp N6  &kp N0
   &kp LG(Z)  &kp LA(EQUAL)  &kp LC(NUMBER_1)  &kp LC(LS(V))  &kp LA(TAB)        &kp KP_MULTIPLY  &kp N1         &kp N2         &kp N3  &kp PRCNT
                             &kp ESC           &kp SPACE      &none              &kp TAB          &kp KP_DIVIDE  &kp BACKSPACE
             >;
-
-            label = "NUM";
         };
 
         sym {
-            label = "SYM";
             display-name = "SYM";
             bindings = <
   &kp GRAVE         &kp AMPERSAND         &kp STAR               &kp CARET          &kp EQUAL      &kp LEFT_BRACE   &kp MINUS          &sk RCTRL    &sk LEFT_ALT  &sk RIGHT_GUI
@@ -187,36 +185,33 @@
         };
 
         mouse {
+            display-name = "MSE";
             bindings = <
   &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &mkp MB4     &kp LS(LG(D))  &sk RIGHT_SHIFT  &sk RCTRL  &sk LEFT_ALT  &sk RIGHT_GUI
   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5     &kp LG(LS(S))  &kp RSHFT        &kp RCTRL  &kp LALT      &kp RGUI
   &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)    &kp LS(LG(T))  &none            &mo 1      &kp RALT      &none
                                   &mkp MCLK       &mkp LCLK        &mkp RCLK    &kp ENTER      &kp BSPC         &kp DEL
             >;
-
-            label = "MOUSE";
         };
 
         fun {
+            display-name = "FUN";
             bindings = <
   &kp F12  &kp F7  &kp F8     &kp F9       &kp PAUSE_BREAK    &none      &sk RIGHT_SHIFT  &sk RCTRL  &sk LEFT_ALT  &sk RIGHT_GUI
   &kp F11  &kp F4  &kp F5     &kp F6       &kp PRINTSCREEN    &none      &kp RSHFT        &kp RCTRL  &kp LALT      &kp RGUI
   &kp F10  &kp F1  &kp F2     &kp F3       &kp SLCK           &none      &none            &none      &kp RALT      &none
                    &kp K_APP  &kp LA(F11)  &kp LA(F12)        &kp ENTER  &kp BSPC         &none
             >;
-
-            label = "FUN";
         };
 
         blt {
+            display-name = "BLT";
             bindings = <
   &sk LEFT_GUI  &sk LEFT_ALT  &sk LCTRL  &sk LEFT_SHIFT  &bootloader    &bt BT_CLR        &none         &none         &none         &none
   &kp LGUI      &kp LALT      &kp LCTRL  &kp LSHFT       &none          &none             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
   &none         &kp RALT      &none      &none           &none          &kp LG(LA(K))     &kp C_VOL_UP  &kp C_VOL_DN  &none         &bt BT_SEL 4
                               &none      &kp SPACE       &kp LA(TAB)    &kp C_PLAY_PAUSE  &kp C_PREV    &kp C_NEXT
             >;
-
-            label = "BLT";
         };
     };
 };
