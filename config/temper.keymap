@@ -23,7 +23,7 @@
             delay-ms = <0>; // 0
         };
         precision {
-            layers = <1>;
+            layers = <4>;
             input-processors = <&zip_xy_scaler 1 4>;
         };
         hm: hm {
@@ -159,7 +159,7 @@
             bindings = <
   &sk LGUI   &sk LALT      &sk LCTRL  &sk LSHFT       &none        &kp INS        &kp HOME      &kp UP       &kp END    &kp PG_UP
   &kp LGUI   &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB      &kp CAPS       &kp LEFT      &kp DOWN     &kp RIGHT  &kp PG_DN
-  &kp LC(Z)  &kp LC(X)     &kp LC(C)  &kp LC(V)       &kp LC(Y)    &none          &none         &mo 4        &none      &none
+  &kp LC(Z)  &kp LC(X)     &kp LC(C)  &kp LC(V)       &kp LC(Y)    &none          &none         &none        &none      &none
                            &kp ESC    &kp SPACE       &kp ENTER    &kp LG(SPACE)  &kp LC(BSPC)  &kp LC(DEL)
             >;
         };
@@ -190,7 +190,7 @@
             bindings = <
   &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &mkp MB4     &kp LS(LG(D))  &sk RIGHT_SHIFT  &sk RCTRL  &sk LEFT_ALT  &sk RIGHT_GUI
   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5     &kp LG(LS(S))  &kp RSHFT        &kp RCTRL  &kp LALT      &kp RGUI
-  &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)    &kp LS(LG(T))  &none            &none      &kp RALT      &none
+  &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)    &kp LS(LG(T))  &none            &precision &kp RALT      &none
                                   &mkp MCLK       &mkp LCLK        &mkp RCLK    &kp ENTER      &kp BSPC         &kp DEL
             >;
 
