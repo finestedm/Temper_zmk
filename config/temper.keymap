@@ -15,12 +15,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-&mmv_input_listener {
-    precision {
-        layers = <NAV>;
-        input-processors = <&zip_xy_scaler 1 4>;
-    };
-};
 / {
     behaviors {
         mmv {
@@ -28,7 +22,10 @@
             time-to-max-speed-ms = <40>; // 40
             delay-ms = <0>; // 0
         };
-
+        precision {
+            layers = <1>;
+            input-processors = <&zip_xy_scaler 1 4>;
+        };
         hm: hm {
             compatible = "zmk,behavior-hold-tap";
             label = "HM";
@@ -162,7 +159,7 @@
             bindings = <
   &sk LGUI   &sk LALT      &sk LCTRL  &sk LSHFT       &none        &kp INS        &kp HOME      &kp UP       &kp END    &kp PG_UP
   &kp LGUI   &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB      &kp CAPS       &kp LEFT      &kp DOWN     &kp RIGHT  &kp PG_DN
-  &kp LC(Z)  &kp LC(X)     &kp LC(C)  &kp LC(V)       &kp LC(Y)    &none          &none         &none        &none      &none
+  &kp LC(Z)  &kp LC(X)     &kp LC(C)  &kp LC(V)       &kp LC(Y)    &none          &none         &mo 4        &none      &none
                            &kp ESC    &kp SPACE       &kp ENTER    &kp LG(SPACE)  &kp LC(BSPC)  &kp LC(DEL)
             >;
         };
