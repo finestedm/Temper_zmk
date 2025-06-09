@@ -92,6 +92,8 @@ parse_config:
     '&msc SCRL_LEFT': Scroll ←
     '&msc SCRL_RIGHT': Scroll →
 
+    '&mouse_speed_tog': Speed Toggle
+
     '&mkp LCLK': Left Click
     '&mkp RCLK': Right Click
     '&mkp MCLK': Middle Click
