@@ -82,24 +82,6 @@
             tapping-term-ms = <150>;
             flavor = "tap-preferred";
         };
-        mouse_speed_tog: behavior_toggle {
-            compatible = "zmk,behavior-toggle";
-            label = "MOUSE_SPEED_TOG";
-            #binding-cells = <0>;
-            bindings = <&set_mouse_speed_fast &set_mouse_speed_slow>;
-        };
-
-        set_mouse_speed_fast: behavior_sensor_config {
-            compatible = "zmk,behavior-sensor-config";
-            label = "SET_MOUSE_SPEED_FAST";
-            sensor-params = <&mmv MOVE_VAL 1800>;
-        };
-
-        set_mouse_speed_slow: behavior_sensor_config {
-            compatible = "zmk,behavior-sensor-config";
-            label = "SET_MOUSE_SPEED_SLOW";
-            sensor-params = <&mmv MOVE_VAL 600>;
-        };
     };
 
     combos {
@@ -205,7 +187,7 @@
             bindings = <
   &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &mkp MB4     &kp LS(LG(D))  &sk RIGHT_SHIFT  &sk RCTRL  &sk LEFT_ALT  &sk RIGHT_GUI
   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5     &kp LG(LS(S))  &kp RSHFT        &kp RCTRL  &kp LALT      &kp RGUI
-  &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)    &kp LS(LG(T))  &mouse_speed_tog            &none      &kp RALT      &none
+  &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)    &kp LS(LG(T))  &none            &none      &kp RALT      &none
                                   &mkp MCLK       &mkp LCLK        &mkp RCLK    &kp ENTER      &kp BSPC         &kp DEL
             >;
 
