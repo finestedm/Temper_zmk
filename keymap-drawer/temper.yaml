@@ -65,7 +65,7 @@ layers:
   - Redo
   - ''
   - ''
-  - MOUSE
+  - ''
   - ''
   - ''
   - Esc
@@ -176,7 +176,7 @@ layers:
   - Redo
   - Snip Text
   - ''
-  - ''
+  - '&precision'
   - AltGr
   - ''
   - Middle Click
