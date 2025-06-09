@@ -35,7 +35,7 @@ layers:
   - {t: ␣, h: NAV}
   - {t: Shift, h: NUM}
   - {t: ⏎, h: SYM}
-  - {t: ⌫, h: MOUSE}
+  - {t: ⌫, h: MSE}
   - {t: ⌦, h: FUN}
   NAV:
   - {t: Win, h: sticky}
@@ -148,7 +148,7 @@ layers:
   - {type: held}
   - Ctl+⌫
   - Ctl+⌦
-  MOUSE:
+  MSE:
   - Scroll ↑
   - Scroll ←
   - Mouse ↑
@@ -276,8 +276,8 @@ combos:
   k: {t: SYM, h: sticky}
   l: [Base]
 - p: [11, 12, 13]
-  k: {t: MOUSE, h: toggle}
-  l: [Base, MOUSE]
+  k: {t: MSE, h: toggle}
+  l: [Base, MSE]
   a: top
   o: -1.0
 - p: [17, 18, 16]
