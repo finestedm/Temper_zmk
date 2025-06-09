@@ -22,10 +22,6 @@
             time-to-max-speed-ms = <40>; // 40
             delay-ms = <0>; // 0
         };
-        mmv_input_listener: precision {
-            layers = <4>;
-            input-processors = <&zip_xy_scaler 1 4>;
-        };
         hm: hm {
             compatible = "zmk,behavior-hold-tap";
             label = "HM";
@@ -190,7 +186,7 @@
             bindings = <
   &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &mkp MB4     &kp LS(LG(D))  &sk RIGHT_SHIFT  &sk RCTRL  &sk LEFT_ALT  &sk RIGHT_GUI
   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5     &kp LG(LS(S))  &kp RSHFT        &kp RCTRL  &kp LALT      &kp RGUI
-  &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)    &kp LS(LG(T))  &none            &precision &kp RALT      &none
+  &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)    &kp LS(LG(T))  &none            &none      &kp RALT      &none
                                   &mkp MCLK       &mkp LCLK        &mkp RCLK    &kp ENTER      &kp BSPC         &kp DEL
             >;
 
