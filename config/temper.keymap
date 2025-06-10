@@ -22,6 +22,12 @@
             };
         };
 
+&msc_input_listener {
+    turbo {
+        layers = <1>;
+        input-processors = <&zip_scroll_scaler 4 1>;
+    };
+
 / {
     behaviors {
         mmv {
