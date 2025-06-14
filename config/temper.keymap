@@ -18,16 +18,9 @@
 &mmv_input_listener {
             precision {
                     layers = <1>;
-                    input-processors = <&zip_xy_scaler 1 4>;
+                    input-processors = <&zip_xy_scaler 1 2>;
             };
         };
-
-&msc_input_listener {
-    turbo {
-        layers = <1>;
-        input-processors = <&zip_scroll_scaler 4 1>;
-    };
-
 / {
     behaviors {
         mmv {
