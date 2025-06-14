@@ -16,8 +16,12 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mmv_input_listener {
-            precision {
+            precisionnav {
                     layers = <1>;
+                    input-processors = <&zip_xy_scaler 1 3>;
+            };
+            precisionnum {
+                    layers = <2>;
                     input-processors = <&zip_xy_scaler 1 2>;
             };
         };
@@ -189,7 +193,7 @@
             bindings = <
   &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &mkp MB4     &kp LS(LG(D))  &sk RIGHT_SHIFT  &sk RCTRL  &sk LEFT_ALT  &sk RIGHT_GUI
   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5     &kp LG(LS(S))  &kp RSHFT        &kp RCTRL  &kp LALT      &kp RGUI
-  &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)    &kp LS(LG(T))  &none            &mo 1      &kp RALT      &none
+  &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)    &kp LS(LG(T))  &mo 2            &mo 1      &kp RALT      &none
                                   &mkp MCLK       &mkp LCLK        &mkp RCLK    &kp ENTER      &kp BSPC         &kp DEL
             >;
         };
