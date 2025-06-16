@@ -436,3 +436,17 @@ combos:
 - p: [2, 12]
   k: {t: NUM, h: sticky}
   l: [Base]
+- p: [10, 19]
+  k: CAPSLOCK
+- p: [10, 11, 12]
+  k: Alt+↹
+- p: [0, 9]
+  k: ESCAPE
+- p: [0, 1]
+  k: '~'
+- p: [21, 22]
+  k: CUT
+- p: [22, 23]
+  k: COPY
+- p: [23, 24]
+  k: PASTE
