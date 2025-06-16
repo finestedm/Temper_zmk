@@ -438,15 +438,22 @@ combos:
   l: [Base]
 - p: [10, 19]
   k: CAPSLOCK
+  l: [Base]
 - p: [10, 11, 12]
   k: Alt+↹
+  l: [Base]
 - p: [0, 9]
   k: ESCAPE
+  l: [Base]
 - p: [0, 1]
   k: '~'
+  l: [Base]
 - p: [21, 22]
   k: CUT
+  l: [Base]
 - p: [22, 23]
   k: COPY
+  l: [Base]
 - p: [23, 24]
   k: PASTE
+  l: [Base]
