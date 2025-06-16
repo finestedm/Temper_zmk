@@ -150,36 +150,43 @@
         Caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <10 19>;
+            layers = <0>;
         };
 
         Alt+tab {
             bindings = <&kp LA(TAB)>;
             key-positions = <10 11 12>;
+            layers = <0>;
         };
 
         Escape {
             bindings = <&kp ESCAPE>;
             key-positions = <0 9>;
+            layers = <0>;
         };
 
         Tilde {
             bindings = <&kp TILDE>;
             key-positions = <0 1>;
+            layers = <0>;
         };
 
         Cut {
             bindings = <&kp K_CUT>;
             key-positions = <21 22>;
+            layers = <0>;
         };
 
         Copy {
             bindings = <&kp K_COPY>;
             key-positions = <22 23>;
+            layers = <0>;
         };
 
         Paste {
             bindings = <&kp K_PASTE>;
             key-positions = <23 24>;
+            layers = <0>;
         };
     };
 
