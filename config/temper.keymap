@@ -16,22 +16,25 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mmv_input_listener {
-            precisionnav {
-                    layers = <1>;
-                    input-processors = <&zip_xy_scaler 1 3>;
-            };
-            precisionnum {
-                    layers = <2>;
-                    input-processors = <&zip_xy_scaler 1 2>;
-            };
-        };
+    precisionnav {
+        layers = <1>;
+        input-processors = <&zip_xy_scaler 1 3>;
+    };
+
+    precisionnum {
+        layers = <2>;
+        input-processors = <&zip_xy_scaler 1 2>;
+    };
+};
+
 / {
     behaviors {
         mmv {
             acceleration-exponent = <2>; // 1
             time-to-max-speed-ms = <40>; // 40
             delay-ms = <0>; // 0
-        }; 
+        };
+
         hm: hm {
             compatible = "zmk,behavior-hold-tap";
             label = "HM";
@@ -151,10 +154,10 @@
         base {
             display-name = "Base";
             bindings = <
-  &kp Q  &kp W  &kp F      &kp P        &kp B                  &kp J        &kp L            &kp U      &kp Y    &kp SQT
-  &kp A  &kp R  &kp S      &kp T        &kp G                  &kp M        &kp N            &kp E      &kp I    &kp O
-  &kp Z  &kp X  &kp C      &kp D        &kp V                  &kp K        &kp H            &kp COMMA  &kp DOT  &kp SEMI
-                &lt 6 ESC  &lt 1 SPACE  &sk_mo 2 LEFT_SHIFT    &lt 3 ENTER  &lt 4 BACKSPACE  &lt 5 DEL
+  &kp Q             &kp W           &kp F               &kp P            &kp B                 &kp J        &kp L            &kp U      &kp Y    &kp SQT
+  &mt LEFT_SHIFT A  &mt LEFT_GUI R  &mt LEFT_CONTROL S  &mt RIGHT_ALT T  &kp G                 &kp K        &kp N            &kp E      &kp I    &kp O
+  &kp Z             &kp X           &kp C               &kp D            &kp V                 &kp M        &kp H            &kp COMMA  &kp DOT  &kp SEMI
+                                    &lt 6 ESC           &lt 7 TAB        &sk_mo 2 BACKSPACE    &lt 3 SPACE  &lt 4 BACKSPACE  &lt 5 DEL
             >;
         };
 
@@ -171,10 +174,10 @@
         num {
             display-name = "NUM";
             bindings = <
-  &sk LGUI   &sk LALT       &sk LCTRL         &sk LSHFT      &kp LA(LS(TAB))    &kp KP_PLUS      &kp N7         &kp N8         &kp N9  &kp KP_EQUAL
-  &kp LGUI   &kp LALT       &kp LCTRL         &kp LSHFT      &kp C_AL_CALC      &kp KP_MINUS     &kp N4         &kp N5         &kp N6  &kp N0
-  &kp LG(Z)  &kp LA(EQUAL)  &kp LC(NUMBER_1)  &kp LC(LS(V))  &kp LA(TAB)        &kp KP_MULTIPLY  &kp N1         &kp N2         &kp N3  &kp PRCNT
-                            &kp ESC           &kp SPACE      &none              &kp TAB          &kp KP_DIVIDE  &kp BACKSPACE
+  &sk LGUI   &sk LALT       &sk LCTRL         &sk LSHFT      &kp LA(LS(TAB))    &kp KP_PLUS      &kp N7     &kp N8       &kp N9  &kp MINUS
+  &kp LGUI   &kp LALT       &kp LCTRL         &kp LSHFT      &kp C_AL_CALC      &kp KP_ASTERISK  &kp N4     &kp N5       &kp N6  &kp KP_DIVIDE
+  &kp LG(Z)  &kp LA(EQUAL)  &kp LC(NUMBER_1)  &kp LC(LS(V))  &kp LA(TAB)        &kp PERIOD       &kp N1     &kp N2       &kp N3  &kp COMMA
+                            &kp ESC           &kp SPACE      &none              &kp NUMBER_0     &kp EQUAL  &kp PERCENT
             >;
         };
 
@@ -215,6 +218,24 @@
   &kp LGUI      &kp LALT      &kp LCTRL  &kp LSHFT       &none          &none             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
   &none         &kp RALT      &none      &none           &none          &kp LG(LA(K))     &kp C_VOL_UP  &kp C_VOL_DN  &none         &bt BT_SEL 4
                               &none      &kp SPACE       &kp LA(TAB)    &kp C_PLAY_PAUSE  &kp C_PREV    &kp C_NEXT
+            >;
+        };
+
+        navi {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+  &trans  &trans  &trans  &trans  &trans    &trans     &kp LEFT       &kp UP_ARROW  &kp DOWN_ARROW        &kp RIGHT
+  &trans  &trans  &trans  &trans  &trans    &trans     &kp HOME       &kp PAGE_UP   &kp PAGE_DOWN         &kp END
+                  &trans  &trans  &trans    &trans     &trans         &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+  &kp F1  &kp F4  &kp F7  &kp F10  &trans    &trans  &trans  &trans  &trans  &trans
+  &kp F2  &kp F5  &kp F8  &kp F11  &trans    &trans  &trans  &trans  &trans  &trans
+  &kp F3  &kp F6  &kp F9  &kp F12  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans   &trans    &trans  &trans  &trans
             >;
         };
     };
