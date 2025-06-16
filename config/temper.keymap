@@ -154,10 +154,10 @@
         base {
             display-name = "Base";
             bindings = <
-  &kp Q             &kp W           &kp F               &kp P            &kp B                 &kp J        &kp L            &kp U      &kp Y    &kp SQT
-  &mt LEFT_SHIFT A  &mt LEFT_GUI R  &mt LEFT_CONTROL S  &mt RIGHT_ALT T  &kp G                 &kp K        &kp N            &kp E      &kp I    &kp O
-  &kp Z             &kp X           &kp C               &kp D            &kp V                 &kp M        &kp H            &kp COMMA  &kp DOT  &kp SEMI
-                                    &lt 6 ESC           &lt 7 TAB        &sk_mo 2 BACKSPACE    &lt 3 SPACE  &lt 4 BACKSPACE  &lt 5 DEL
+  &kp Q             &kp W           &kp F               &kp P            &kp B            &kp J      &kp L            &kp U      &kp Y    &kp SQT
+  &mt LEFT_SHIFT A  &mt LEFT_GUI R  &mt LEFT_CONTROL S  &mt RIGHT_ALT T  &kp G            &kp K      &kp N            &kp E      &kp I    &kp O
+  &kp Z             &kp X           &kp C               &kp D            &kp V            &kp M      &kp H            &kp COMMA  &kp DOT  &kp SEMI
+                                    &lt 6 ENTER         &lt 7 TAB        &kp BACKSPACE    &kp SPACE  &lt 8 BACKSPACE  &lt 8 DEL
             >;
         };
 
@@ -245,6 +245,15 @@
   &trans      &trans  &trans  &trans  &trans    &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH
   &trans      &trans  &trans  &trans  &trans    &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA
                       &trans  &trans  &trans    &kp NUMBER_0  &trans        &kp EQUAL
+            >;
+        };
+
+        layer_10 {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
