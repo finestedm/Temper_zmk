@@ -35,8 +35,8 @@ layers:
   - {t: ↹, h: navi}
   - ⌫
   - ␣
-  - {t: ⌫, h: F1-F12}
-  - {t: ⌦, h: F1-F12}
+  - {t: ⌫, h: F1_F12}
+  - {t: ⌦, h: F1_F12}
   NAV:
   - {t: Win, h: sticky}
   - {t: Alt, h: sticky}
@@ -296,7 +296,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  F1-F12:
+  F1_F12:
   - F1
   - F4
   - F7
