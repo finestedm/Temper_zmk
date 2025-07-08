@@ -99,54 +99,6 @@
     combos {
         compatible = "zmk,combos";
 
-        langswitchcombo {
-            bindings = <&kp LG(SPACE)>;
-            key-positions = <3 13>;
-            layers = <0>;
-        };
-
-        capswordcombo {
-            bindings = <&caps_word>;
-            key-positions = <26 27>;
-            layers = <0>;
-        };
-
-        tabcombo {
-            bindings = <&kp TAB>;
-            key-positions = <6 16>;
-            layers = <0>;
-        };
-
-        capslock {
-            bindings = <&kp CAPS>;
-            key-positions = <22 23>;
-            layers = <0>;
-        };
-
-        nextsym {
-            bindings = <&sl 3>;
-            key-positions = <7 17>;
-            layers = <0>;
-        };
-
-        togmouse {
-            bindings = <&tog 4>;
-            key-positions = <11 12 13>;
-            layers = <0 4>;
-        };
-
-        tognav {
-            bindings = <&tog 1>;
-            key-positions = <17 18 16>;
-            layers = <0 1>;
-        };
-
-        nextnum {
-            bindings = <&sl 2>;
-            key-positions = <2 12>;
-            layers = <0>;
-        };
-
         Caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <10 19>;
@@ -188,6 +140,16 @@
             key-positions = <23 24>;
             layers = <0>;
         };
+
+        screenshot {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <9 8>;
+        };
+
+        split_screen {
+            bindings = <&kp LG(LEFT)>;
+            key-positions = <30 35>;
+        };
     };
 
     keymap {
@@ -196,60 +158,10 @@
         base {
             display-name = "Base";
             bindings = <
-  &kp Q             &kp W           &kp F               &kp P            &kp B            &kp J      &kp L            &kp U      &kp Y    &kp SQT
-  &mt LEFT_SHIFT A  &mt LEFT_GUI R  &mt LEFT_CONTROL S  &mt RIGHT_ALT T  &kp G            &kp K      &kp N            &kp E      &kp I    &kp O
-  &kp Z             &kp X           &kp C               &kp D            &kp V            &kp M      &kp H            &kp COMMA  &kp DOT  &kp SEMI
-                                    &lt 6 ENTER         &lt 7 TAB        &kp BACKSPACE    &kp SPACE  &lt 8 BACKSPACE  &lt 8 DEL
-            >;
-        };
-
-        nav {
-            display-name = "NAV";
-            bindings = <
-  &sk LGUI   &sk LALT      &sk LCTRL  &sk LSHFT       &none        &kp INS        &kp HOME      &kp UP       &kp END    &kp PG_UP
-  &kp LGUI   &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB      &kp CAPS       &kp LEFT      &kp DOWN     &kp RIGHT  &kp PG_DN
-  &kp LC(Z)  &kp LC(X)     &kp LC(C)  &kp LC(V)       &kp LC(Y)    &none          &none         &none        &none      &none
-                           &kp ESC    &kp SPACE       &kp ENTER    &kp LG(SPACE)  &kp LC(BSPC)  &kp LC(DEL)
-            >;
-        };
-
-        num {
-            display-name = "NUM";
-            bindings = <
-  &sk LGUI   &sk LALT       &sk LCTRL         &sk LSHFT      &kp LA(LS(TAB))    &kp KP_PLUS      &kp N7     &kp N8       &kp N9  &kp MINUS
-  &kp LGUI   &kp LALT       &kp LCTRL         &kp LSHFT      &kp C_AL_CALC      &kp KP_ASTERISK  &kp N4     &kp N5       &kp N6  &kp KP_DIVIDE
-  &kp LG(Z)  &kp LA(EQUAL)  &kp LC(NUMBER_1)  &kp LC(LS(V))  &kp LA(TAB)        &kp PERIOD       &kp N1     &kp N2       &kp N3  &kp COMMA
-                            &kp ESC           &kp SPACE      &none              &kp NUMBER_0     &kp EQUAL  &kp PERCENT
-            >;
-        };
-
-        sym {
-            display-name = "SYM";
-            bindings = <
-  &kp GRAVE         &kp AMPERSAND         &kp STAR               &kp CARET          &kp EQUAL      &kp LEFT_BRACE   &kp MINUS          &sk RCTRL    &sk LEFT_ALT  &sk RIGHT_GUI
-  &kp EXCL          &kp AT                &kp HASH               &kp DOLLAR         &kp PERCENT    &kp TAB          &kp RSHFT          &kp RCTRL    &kp LALT      &kp RGUI
-  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BSLH       &kp RIGHT_BRACE  &kp UNDER          &kp PIPE     &kp RALT      &none
-                                          &kp ESC                &kp QUESTION       &kp SLASH      &none            &kp LC(BACKSPACE)  &kp LC(DEL)
-            >;
-        };
-
-        mouse {
-            display-name = "MSE";
-            bindings = <
-  &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &mkp MB4     &kp LS(LG(D))  &sk RIGHT_SHIFT  &sk RCTRL  &sk LEFT_ALT  &sk RIGHT_GUI
-  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5     &kp LG(LS(S))  &kp RSHFT        &kp RCTRL  &kp LALT      &kp RGUI
-  &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LC(Y)    &kp LS(LG(T))  &mo 2            &mo 1      &kp RALT      &none
-                                  &mkp MCLK       &mkp LCLK        &mkp RCLK    &kp ENTER      &kp BSPC         &kp DEL
-            >;
-        };
-
-        fun {
-            display-name = "FUN";
-            bindings = <
-  &kp F12  &kp F7  &kp F8     &kp F9       &kp PAUSE_BREAK    &none      &sk RIGHT_SHIFT  &sk RCTRL  &sk LEFT_ALT  &sk RIGHT_GUI
-  &kp F11  &kp F4  &kp F5     &kp F6       &kp PRINTSCREEN    &none      &kp RSHFT        &kp RCTRL  &kp LALT      &kp RGUI
-  &kp F10  &kp F1  &kp F2     &kp F3       &kp SLCK           &none      &none            &none      &kp RALT      &none
-                   &kp K_APP  &kp LA(F11)  &kp LA(F12)        &kp ENTER  &kp BSPC         &none
+  &kp Q             &kp W           &kp F               &kp P            &kp B            &kp J      &kp L            &kp U                &kp Y           &kp SQT
+  &mt LEFT_SHIFT A  &mt LEFT_GUI R  &mt LEFT_CONTROL S  &mt RIGHT_ALT T  &kp G            &kp K      &mt RIGHT_ALT N  &mt RIGHT_CONTROL E  &mt LEFT_GUI I  &mt RIGHT_SHIFT O
+  &kp Z             &kp X           &kp C               &kp D            &kp V            &kp M      &kp H            &kp COMMA            &kp DOT         &kp SEMI
+                                    &lt 5 ENTER         &lt 2 TAB        &kp BACKSPACE    &kp SPACE  &lt 3 BACKSPACE  &lt 4 DEL
             >;
         };
 
@@ -263,39 +175,39 @@
             >;
         };
 
-        navi {
+        navi_right {
             bindings = <
-  &trans      &trans      &trans     &trans      &trans         &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-  &trans      &trans      &trans     &trans      &trans         &trans     &kp LEFT       &kp UP_ARROW  &kp DOWN_ARROW        &kp RIGHT
-  &kp K_UNDO  &kp K_REDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE    &trans     &kp HOME       &kp PAGE_UP   &kp PAGE_DOWN         &kp END
-                          &trans     &trans      &trans         &trans     &trans         &trans
+  &trans      &trans      &trans     &trans      &trans         &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+  &trans      &trans      &trans     &trans      &trans         &msc SCRL_UP    &kp LEFT       &kp UP_ARROW  &kp DOWN_ARROW        &kp RIGHT
+  &kp K_UNDO  &kp K_REDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE    &msc SCRL_DOWN  &kp HOME       &kp PAGE_UP   &kp PAGE_DOWN         &kp END
+                          &trans     &trans      &trans         &kp UNDERSCORE  &trans         &trans
+            >;
+        };
+
+        navi_left {
+            bindings = <
+  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &trans  &trans      &trans            &trans      &kp C_VOLUME_UP
+  &trans           &trans       &trans    &trans      &trans         &trans  &kp K_PREV  &kp K_PLAY_PAUSE  &kp C_NEXT  &kp K_MUTE
+  &trans           &trans       &trans    &trans      &trans         &trans  &trans      &trans            &trans      &kp C_VOL_DN
+                                &trans    &trans      &trans         &trans  &trans      &trans
             >;
         };
 
         F1_F12 {
             bindings = <
-  &kp F1  &kp F4  &kp F7  &kp F10  &trans    &trans  &trans  &trans  &trans  &trans
-  &kp F2  &kp F5  &kp F8  &kp F11  &trans    &trans  &trans  &trans  &trans  &trans
-  &kp F3  &kp F6  &kp F9  &kp F12  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans   &trans    &trans  &trans  &trans
+  &kp F1  &kp F2   &kp F3   &kp F4   &trans    &trans  &trans  &trans  &trans  &trans
+  &kp F5  &kp F6   &kp F7   &kp F8   &trans    &trans  &trans  &trans  &trans  &trans
+  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &trans  &trans  &trans  &trans
+                   &trans   &trans   &trans    &trans  &trans  &trans
             >;
         };
 
         NUMERICAL {
             bindings = <
   &kp K_CALC  &trans  &trans  &trans  &trans    &kp PLUS      &kp N7        &kp N8        &kp N9        &kp MINUS
-  &trans      &trans  &trans  &trans  &trans    &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH
+  &trans      &trans  &trans  &trans  &trans    &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &mt BACKSLASH SLASH
   &trans      &trans  &trans  &trans  &trans    &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA
-                      &trans  &trans  &trans    &kp NUMBER_0  &trans        &kp EQUAL
-            >;
-        };
-
-        layer_10 {
-            bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans  &trans
+                      &trans  &trans  &trans    &trans        &kp N0        &kp EQUAL
             >;
         };
     };
