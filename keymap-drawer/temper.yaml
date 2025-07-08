@@ -248,3 +248,5 @@ combos:
   k: Snip Img
 - p: [30, 35]
   k: Gui+←
+- p: [27, 28]
+  k: ;
