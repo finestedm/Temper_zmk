@@ -30,7 +30,7 @@ layers:
   - H
   - ','
   - .
-  - '?'
+  - /
   - {t: ⏎, h: NUMERICAL}
   - {t: ↹, h: navi_right}
   - ⌫
