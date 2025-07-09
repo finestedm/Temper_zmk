@@ -30,7 +30,7 @@ layers:
   - H
   - ','
   - .
-  - ;
+  - '?'
   - {t: ⏎, h: NUMERICAL}
   - {t: ↹, h: navi_right}
   - ⌫
@@ -122,9 +122,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOLUME UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - (
+  - '{'
+  - '['
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,9 +132,9 @@ layers:
   - PLAY PAUSE
   - ⏭
   - MUTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - )
+  - '}'
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
