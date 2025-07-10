@@ -173,6 +173,11 @@
             bindings = <&bootloader>;
             key-positions = <0 4 32>;
         };
+
+        alt_f4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <0 1 2>;
+        };
     };
 
     keymap {
