@@ -165,6 +165,16 @@
             bindings = <&kp MINUS>;
             key-positions = <29 28>;
         };
+
+        boot_r {
+            bindings = <&bootloader>;
+            key-positions = <33 5 9>;
+        };
+
+        boot_l {
+            bindings = <&bootloader>;
+            key-positions = <0 4 32>;
+        };
     };
 
     keymap {
