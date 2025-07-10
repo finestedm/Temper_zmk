@@ -127,19 +127,19 @@
         };
 
         Cut {
-            bindings = <&kp K_CUT>;
+            bindings = <&kp LC(X)>;
             key-positions = <21 22>;
             layers = <0>;
         };
 
         Copy {
-            bindings = <&kp K_COPY>;
+            bindings = <&kp LC(C)>;
             key-positions = <22 23>;
             layers = <0>;
         };
 
         Paste {
-            bindings = <&kp K_PASTE>;
+            bindings = <&kp LC(V)>;
             key-positions = <23 24>;
             layers = <0>;
         };
@@ -161,7 +161,7 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <29 28>;
+            key-positions = <18 19>;
         };
 
         boot_r {
@@ -200,10 +200,10 @@
 
         navi_right {
             bindings = <
-  &trans      &trans      &trans     &trans      &trans         &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-  &trans      &trans      &trans     &trans      &trans         &msc SCRL_UP    &kp LEFT       &kp UP_ARROW  &kp DOWN_ARROW        &kp RIGHT
-  &kp K_UNDO  &kp K_REDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE    &msc SCRL_DOWN  &kp HOME       &kp PAGE_UP   &kp PAGE_DOWN         &kp END
-                          &trans     &trans      &trans         &kp UNDERSCORE  &trans         &trans
+  &trans     &trans     &trans     &trans     &trans       &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+  &trans     &trans     &trans     &trans     &trans       &msc SCRL_UP    &kp LEFT       &kp UP_ARROW  &kp DOWN_ARROW        &kp RIGHT
+  &kp LC(Z)  &kp LA(Y)  &kp LC(X)  &kp LC(C)  &kp LC(V)    &msc SCRL_DOWN  &kp HOME       &kp PAGE_UP   &kp PAGE_DOWN         &kp END
+                        &trans     &trans     &trans       &kp UNDERSCORE  &trans         &trans
             >;
         };
 
