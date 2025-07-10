@@ -95,11 +95,11 @@ layers:
   - UP ARROW
   - DOWN ARROW
   - →
-  - UNDO
-  - REDO
-  - CUT
-  - COPY
-  - PASTE
+  - Undo
+  - Alt+Y
+  - Cut
+  - Copy
+  - Paste
   - Scroll ↓
   - Home
   - PAGE UP
@@ -236,13 +236,13 @@ combos:
   k: '~'
   l: [Base]
 - p: [21, 22]
-  k: CUT
+  k: Cut
   l: [Base]
 - p: [22, 23]
-  k: COPY
+  k: Copy
   l: [Base]
 - p: [23, 24]
-  k: PASTE
+  k: Paste
   l: [Base]
 - p: [9, 8]
   k: Snip Img
@@ -250,7 +250,7 @@ combos:
   k: Gui+←
 - p: [27, 28]
   k: ;
-- p: [29, 28]
+- p: [18, 19]
   k: '-'
 - p: [33, 5, 9]
   k: Boot
