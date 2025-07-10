@@ -256,3 +256,5 @@ combos:
   k: Boot
 - p: [0, 4, 32]
   k: Boot
+- p: [0, 1, 2]
+  k: Win Close
