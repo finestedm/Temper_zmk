@@ -63,7 +63,6 @@
             flavor = "hold-preferred";
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 20 21 22 23 24 14 25 15 5 6 16 26 27 17 7 8 18 28 29 19 9>;
-            retro-tap;
         };
 
         hmr: hmr {
@@ -77,7 +76,6 @@
             flavor = "hold-preferred";
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 10 20 21 1 11 12 2 3 4 24 14 13 23 22 25 26 28 27 29 9 8 7 6 5 15>;
-            retro-tap;
         };
 
         mo_tog: mo_tog {
