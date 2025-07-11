@@ -232,7 +232,7 @@ combos:
 - p: [0, 9]
   k: ESCAPE
   l: [Base]
-- p: [0, 1]
+- p: [0, 10]
   k: '~'
   l: [Base]
 - p: [21, 22]
@@ -265,7 +265,7 @@ combos:
 - p: [0, 1, 2]
   k: Win Close
   l: [Base]
-- p: [10, 14]
+- p: [0, 1]
   k: ESCAPE
   l: [Base]
 - p: [32, 33]
