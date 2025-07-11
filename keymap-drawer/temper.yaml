@@ -70,8 +70,8 @@ layers:
   - BT 5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   navi_right:
@@ -268,3 +268,5 @@ combos:
 - p: [10, 14]
   k: ESCAPE
   l: [Base]
+- p: [32, 33]
+  k: BLT
