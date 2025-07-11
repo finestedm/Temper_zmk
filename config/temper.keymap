@@ -147,36 +147,49 @@
         screenshot {
             bindings = <&kp LG(LS(S))>;
             key-positions = <9 8>;
+            layers = <0>;
         };
 
         split_screen {
             bindings = <&kp LG(LEFT)>;
             key-positions = <30 35>;
+            layers = <0>;
         };
 
         semicolon {
             bindings = <&kp SEMICOLON>;
             key-positions = <27 28>;
+            layers = <0>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <18 19>;
+            layers = <0>;
         };
 
         boot_r {
             bindings = <&bootloader>;
             key-positions = <33 5 9>;
+            layers = <0>;
         };
 
         boot_l {
             bindings = <&bootloader>;
             key-positions = <0 4 32>;
+            layers = <0>;
         };
 
         alt_f4 {
             bindings = <&kp LA(F4)>;
             key-positions = <0 1 2>;
+            layers = <0>;
+        };
+
+        esc_left {
+            bindings = <&kp ESCAPE>;
+            key-positions = <10 14>;
+            layers = <0>;
         };
     };
 
@@ -196,10 +209,10 @@
         blt {
             display-name = "BLT";
             bindings = <
-  &sk LEFT_GUI  &sk LEFT_ALT  &sk LCTRL  &sk LEFT_SHIFT  &bootloader    &bt BT_CLR        &none         &none         &none         &none
-  &kp LGUI      &kp LALT      &kp LCTRL  &kp LSHFT       &none          &none             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
-  &none         &kp RALT      &none      &none           &none          &kp LG(LA(K))     &kp C_VOL_UP  &kp C_VOL_DN  &none         &bt BT_SEL 4
-                              &none      &kp SPACE       &kp LA(TAB)    &kp C_PLAY_PAUSE  &kp C_PREV    &kp C_NEXT
+  &trans  &trans  &trans  &trans  &trans    &bt BT_CLR     &trans        &trans        &trans        &trans
+  &trans  &trans  &trans  &trans  &trans    &trans         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
+  &trans  &trans  &trans  &trans  &trans    &kp LG(LA(K))  &kp C_VOL_UP  &kp C_VOL_DN  &trans        &bt BT_SEL 4
+                  &trans  &trans  &trans    &trans         &trans        &trans
             >;
         };
 
