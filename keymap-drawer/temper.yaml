@@ -96,7 +96,7 @@ layers:
   - DOWN ARROW
   - →
   - Undo
-  - Alt+Y
+  - Redo
   - Cut
   - Copy
   - Paste
