@@ -191,6 +191,11 @@
             key-positions = <10 14>;
             layers = <0>;
         };
+
+        bluetooth {
+            bindings = <&mo 1>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
