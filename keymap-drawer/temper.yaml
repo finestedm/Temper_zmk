@@ -38,42 +38,42 @@ layers:
   - {t: ⏎, h: navi_left}
   - {t: ⌦, h: F1_F12}
   BLT:
-  - {t: Win, h: sticky}
-  - {t: Alt, h: sticky}
-  - {t: Ctrl, h: sticky}
-  - {t: Shift, h: sticky}
-  - Boot
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT CLR
-  - ''
-  - ''
-  - ''
-  - ''
-  - Win
-  - Alt
-  - Ctrl
-  - Shift
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT 1
   - BT 2
   - BT 3
   - BT 4
-  - ''
-  - AltGr
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Tog Mic
   - Vol Up
   - Vol Down
-  - ''
+  - {t: ▽, type: trans}
   - BT 5
-  - ''
-  - ␣
-  - Alt+↹
-  - ⏯
-  - ⏮
-  - ⏭
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   navi_right:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -246,15 +246,25 @@ combos:
   l: [Base]
 - p: [9, 8]
   k: Snip Img
+  l: [Base]
 - p: [30, 35]
   k: Gui+←
+  l: [Base]
 - p: [27, 28]
   k: ;
+  l: [Base]
 - p: [18, 19]
   k: '-'
+  l: [Base]
 - p: [33, 5, 9]
   k: Boot
+  l: [Base]
 - p: [0, 4, 32]
   k: Boot
+  l: [Base]
 - p: [0, 1, 2]
   k: Win Close
+  l: [Base]
+- p: [10, 14]
+  k: ESCAPE
+  l: [Base]
