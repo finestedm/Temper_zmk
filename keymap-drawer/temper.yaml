@@ -205,7 +205,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: /, h: \}
+  - {t: /, h: ➗}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
