@@ -224,13 +224,13 @@
         win_nav_left_shift {
             bindings = <&kp LG(LS(LEFT))>;
             key-positions = <16 10>;
-            layers = <0>;
+            layers = <2 3>;
         };
 
         win_nav_right_shift {
             bindings = <&kp LG(LS(RIGHT))>;
             key-positions = <13 19>;
-            layers = <0>;
+            layers = <2 3>;
         };
     };
 
