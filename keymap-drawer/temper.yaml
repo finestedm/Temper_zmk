@@ -270,3 +270,21 @@ combos:
   l: [Base]
 - p: [32, 33]
   k: BLT
+- p: [16, 10]
+  k: Gui+←
+  l: [Base]
+- p: [13, 19]
+  k: Gui+→
+  l: [Base]
+- p: [17, 11]
+  k: Gui+UP ARROW
+  l: [Base]
+- p: [12, 18]
+  k: Gui+DOWN ARROW
+  l: [Base]
+- p: [16, 10]
+  k: Gui+Sft+←
+  l: [Base]
+- p: [13, 19]
+  k: Gui+Sft+→
+  l: [Base]
