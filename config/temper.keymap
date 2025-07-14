@@ -112,6 +112,7 @@
             bindings = <&kp LA(TAB)>;
             key-positions = <10 11 12>;
             layers = <0>;
+            timeout-ms = <100>;
         };
 
         Escape {
@@ -166,6 +167,7 @@
             bindings = <&kp MINUS>;
             key-positions = <18 19>;
             layers = <0>;
+            timeout-ms = <100>;
         };
 
         boot_r {
@@ -190,6 +192,7 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
             layers = <0>;
+            timeout-ms = <100>;
         };
 
         bluetooth {
