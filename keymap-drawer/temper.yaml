@@ -186,8 +186,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   NUMERICAL:
-  - CALC
-  - {t: ▽, type: trans}
+  - CALCULATOR
+  - AL CALCULATOR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,8 +219,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '0'
+  - {t: ▽, type: trans}
   - '='
 combos:
 - p: [10, 19]
