@@ -196,6 +196,42 @@
             bindings = <&mo 1>;
             key-positions = <32 33>;
         };
+
+        win_nav_left {
+            bindings = <&kp LG(LEFT)>;
+            key-positions = <16 10>;
+            layers = <0>;
+        };
+
+        win_nav_right {
+            bindings = <&kp LG(RIGHT)>;
+            key-positions = <13 19>;
+            layers = <0>;
+        };
+
+        win_nav_up {
+            bindings = <&kp LG(UP_ARROW)>;
+            key-positions = <17 11>;
+            layers = <0>;
+        };
+
+        win_nav_down {
+            bindings = <&kp LG(DOWN_ARROW)>;
+            key-positions = <12 18>;
+            layers = <0>;
+        };
+
+        win_nav_left_shift {
+            bindings = <&kp LG(LS(LEFT))>;
+            key-positions = <16 10>;
+            layers = <0>;
+        };
+
+        win_nav_right_shift {
+            bindings = <&kp LG(LS(RIGHT))>;
+            key-positions = <13 19>;
+            layers = <0>;
+        };
     };
 
     keymap {
