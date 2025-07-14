@@ -235,6 +235,26 @@
             key-positions = <13 19>;
             layers = <2 3>;
         };
+
+        num_par_left {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <16 17>;
+        };
+
+        num_par_right {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <18 19>;
+        };
+
+        num_equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <16 17 18 19>;
+        };
+
+        num_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
