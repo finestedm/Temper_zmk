@@ -284,7 +284,7 @@ combos:
   l: [Base]
 - p: [16, 10]
   k: Gui+Sft+←
-  l: [Base]
+  l: [navi_right, navi_left]
 - p: [13, 19]
   k: Gui+Sft+→
-  l: [Base]
+  l: [navi_right, navi_left]
