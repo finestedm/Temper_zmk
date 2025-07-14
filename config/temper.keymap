@@ -240,10 +240,10 @@
         base {
             display-name = "Base";
             bindings = <
-  &kp Q              &kp W           &kp F               &kp P             &kp B            &kp J      &kp L             &kp U                &kp Y           &kp SQT
-  &hml LEFT_SHIFT A  &hm LEFT_GUI R  &hm LEFT_CONTROL S  &hml RIGHT_ALT T  &kp G            &kp K      &hmr RIGHT_ALT N  &hm RIGHT_CONTROL E  &hm LEFT_GUI I  &hmr RIGHT_SHIFT O
-  &kp Z              &kp X           &kp C               &kp D             &kp V            &kp M      &kp H             &kp COMMA            &kp DOT         &kp SLASH
-                                     &lt 5 ENTER         &lt 2 TAB         &kp BACKSPACE    &kp SPACE  &lt 3 ENTER       &lt 4 DEL
+  &kp Q              &kp W           &kp F               &kp P             &kp B              &kp J      &kp L             &kp U                &kp Y           &kp SQT
+  &hml LEFT_SHIFT A  &hm LEFT_GUI R  &hm LEFT_CONTROL S  &hml RIGHT_ALT T  &kp G              &kp K      &hmr RIGHT_ALT N  &hm RIGHT_CONTROL E  &hm LEFT_GUI I  &hmr RIGHT_SHIFT O
+  &kp Z              &kp X           &kp C               &kp D             &kp V              &kp M      &kp H             &kp COMMA            &kp DOT         &kp SLASH
+                                     &lt 5 ENTER         &lt 2 TAB         &lt 6 BACKSPACE    &kp SPACE  &lt 3 ENTER       &lt 4 DEL
             >;
         };
 
@@ -290,6 +290,15 @@
   &trans            &trans               &trans  &trans  &trans    &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &mt KP_DIVIDE SLASH
   &trans            &trans               &trans  &trans  &trans    &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA
                                          &trans  &trans  &trans    &kp N0        &trans        &kp EQUAL
+            >;
+        };
+
+        focus_switch {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
