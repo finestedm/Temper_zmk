@@ -259,10 +259,10 @@
 
         navi_right {
             bindings = <
-  &trans     &trans     &trans     &trans     &trans       &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-  &trans     &trans     &trans     &trans     &trans       &msc SCRL_UP    &kp LEFT       &kp UP_ARROW  &kp DOWN_ARROW        &kp RIGHT
-  &kp LC(Z)  &kp LC(Y)  &kp LC(X)  &kp LC(C)  &kp LC(V)    &msc SCRL_DOWN  &kp HOME       &kp PAGE_UP   &kp PAGE_DOWN         &kp END
-                        &trans     &trans     &trans       &kp UNDERSCORE  &trans         &trans
+  &trans     &trans     &trans     &trans         &trans       &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+  &trans     &trans     &trans     &kp RIGHT_ALT  &trans       &msc SCRL_UP    &kp LEFT       &kp UP_ARROW  &kp DOWN_ARROW        &kp RIGHT
+  &kp LC(Z)  &kp LC(Y)  &kp LC(X)  &kp LC(C)      &kp LC(V)    &msc SCRL_DOWN  &kp HOME       &kp PAGE_UP   &kp PAGE_DOWN         &kp END
+                        &trans     &trans         &trans       &kp UNDERSCORE  &trans         &trans
             >;
         };
 
