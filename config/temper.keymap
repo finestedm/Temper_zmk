@@ -253,6 +253,11 @@
             key-positions = <18 19>;
             layers = <5>;
         };
+
+        del_left {
+            bindings = <&kp DEL>;
+            key-positions = <20 23>;
+        };
     };
 
     keymap {
