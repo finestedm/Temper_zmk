@@ -316,7 +316,7 @@ combos:
 - p: [7, 8]
   k: Gui+UP ARROW
   l: [focus_switch]
-- p: [27, 28]
+- p: [17, 18]
   k: Gui+DOWN ARROW
   l: [focus_switch]
 - p: [16, 17, 18]
