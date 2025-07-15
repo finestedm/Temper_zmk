@@ -202,38 +202,56 @@
 
         win_nav_left {
             bindings = <&kp LG(LEFT)>;
-            key-positions = <16 10>;
-            layers = <0>;
+            key-positions = <16 17>;
+            layers = <6>;
         };
 
         win_nav_right {
             bindings = <&kp LG(RIGHT)>;
-            key-positions = <13 19>;
-            layers = <0>;
+            key-positions = <19 18>;
+            layers = <6>;
         };
 
         win_nav_up {
             bindings = <&kp LG(UP_ARROW)>;
-            key-positions = <17 11>;
-            layers = <0>;
+            key-positions = <7 8>;
+            layers = <6>;
         };
 
         win_nav_down {
             bindings = <&kp LG(DOWN_ARROW)>;
-            key-positions = <12 18>;
-            layers = <0>;
+            key-positions = <27 28>;
+            layers = <6>;
         };
 
         win_nav_left_shift {
             bindings = <&kp LG(LS(LEFT))>;
-            key-positions = <16 10>;
-            layers = <2 3>;
+            key-positions = <16 17 18>;
+            layers = <6>;
         };
 
         win_nav_right_shift {
             bindings = <&kp LG(LS(RIGHT))>;
-            key-positions = <13 19>;
-            layers = <2 3>;
+            key-positions = <19 18 17>;
+            layers = <6>;
+        };
+
+        num_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <16 17 18>;
+            layers = <5>;
+        };
+
+        num_par_left {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <16 17>;
+            layers = <5>;
+        };
+
+        num_par_right {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <18 19>;
+            layers = <5>;
         };
     };
 
@@ -289,10 +307,10 @@
 
         NUMERICAL {
             bindings = <
-  &kp K_CALCULATOR  &kp C_AL_CALCULATOR  &trans  &trans  &trans    &kp PLUS      &kp N7        &kp N8        &kp N9        &kp MINUS
-  &trans            &trans               &trans  &trans  &trans    &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &mt KP_DIVIDE SLASH
-  &trans            &trans               &trans  &trans  &trans    &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA
-                                         &trans  &trans  &trans    &kp N0        &trans        &kp EQUAL
+  &kp C_AL_CALC  &trans  &trans  &trans  &trans    &kp PLUS      &kp N7        &kp N8        &kp N9        &kp MINUS
+  &trans         &trans  &trans  &trans  &trans    &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &mt KP_DIVIDE SLASH
+  &trans         &trans  &trans  &trans  &trans    &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA
+                         &trans  &trans  &trans    &kp N0        &trans        &kp EQUAL
             >;
         };
 
