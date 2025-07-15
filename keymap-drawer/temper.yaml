@@ -186,8 +186,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   NUMERICAL:
-  - CALCULATOR
-  - AL CALCULATOR
+  - Calc
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,21 +307,30 @@ combos:
   l: [Base]
 - p: [32, 33]
   k: BLT
-- p: [16, 10]
+- p: [16, 17]
   k: Gui+←
-  l: [Base]
-- p: [13, 19]
+  l: [focus_switch]
+- p: [19, 18]
   k: Gui+→
-  l: [Base]
-- p: [17, 11]
+  l: [focus_switch]
+- p: [7, 8]
   k: Gui+UP ARROW
-  l: [Base]
-- p: [12, 18]
+  l: [focus_switch]
+- p: [27, 28]
   k: Gui+DOWN ARROW
-  l: [Base]
-- p: [16, 10]
+  l: [focus_switch]
+- p: [16, 17, 18]
   k: Gui+Sft+←
-  l: [navi_right, navi_left]
-- p: [13, 19]
+  l: [focus_switch]
+- p: [19, 18, 17]
   k: Gui+Sft+→
-  l: [navi_right, navi_left]
+  l: [focus_switch]
+- p: [16, 17, 18]
+  k: '='
+  l: [NUMERICAL]
+- p: [16, 17]
+  k: (
+  l: [NUMERICAL]
+- p: [18, 19]
+  k: )
+  l: [NUMERICAL]
