@@ -235,26 +235,6 @@
             key-positions = <13 19>;
             layers = <2 3>;
         };
-
-        num_par_left {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <16 17>;
-        };
-
-        num_par_right {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <18 19>;
-        };
-
-        num_equals {
-            bindings = <&kp EQUAL>;
-            key-positions = <16 17 18 19>;
-        };
-
-        num_plus {
-            bindings = <&kp PLUS>;
-            key-positions = <6 7>;
-        };
     };
 
     keymap {
@@ -318,10 +298,10 @@
 
         focus_switch {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans
-                  &trans  &trans  &trans    &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(N4)  &kp LG(N5)  &kp LG(N6)  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &trans
+                  &trans  &trans  &trans    &trans  &trans      &trans
             >;
         };
     };
