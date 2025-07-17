@@ -122,20 +122,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOLUME UP
-  - (
+  - {t: ▽, type: trans}
   - '{'
   - '['
-  - {t: ▽, type: trans}
+  - (
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⏮
   - ⏯
   - ⏭
   - MUTE
-  - )
+  - {t: ▽, type: trans}
   - '}'
   - ']'
-  - {t: ▽, type: trans}
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
