@@ -294,10 +294,10 @@
 
         navi_left {
             bindings = <
-  &kp EXCLAMATION        &kp AT_SIGN      &kp HASH           &kp DOLLAR  &kp PERCENT    &trans  &trans      &trans            &trans      &kp C_VOLUME_UP
-  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &trans      &trans         &trans  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_MUTE
-  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans      &trans         &trans  &trans      &trans            &trans      &kp C_VOL_DN
-                                          &trans             &kp PIPE    &trans         &trans  &trans      &trans
+  &kp EXCLAMATION  &kp AT_SIGN      &kp HASH           &kp DOLLAR             &kp PERCENT    &trans  &trans      &trans            &trans      &kp C_VOLUME_UP
+  &trans           &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &trans         &trans  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_MUTE
+  &trans           &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans         &trans  &trans      &trans            &trans      &kp C_VOL_DN
+                                    &trans             &kp PIPE               &trans         &trans  &trans      &trans
             >;
         };
 
