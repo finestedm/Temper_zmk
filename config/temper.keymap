@@ -73,7 +73,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <140>;
             quick-tap-ms = <62>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 10 20 21 1 11 12 2 3 4 24 14 13 23 22 25 26 28 27 29 9 8 7 6 5 15>;
         };
