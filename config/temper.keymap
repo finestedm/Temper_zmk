@@ -107,7 +107,8 @@
             tapping-term-ms = <235>;
             quick-tap-ms = <100>;
             flavor = "tap-preferred";
-            retro-tap;
+            hold-trigger-key-positions = <10 12 20 21 16 17 19 6>;
+            hold-trigger-on-release;
         };
     };
 
