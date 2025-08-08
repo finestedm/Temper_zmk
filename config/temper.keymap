@@ -47,9 +47,10 @@
 
             #binding-cells = <2>;
             quick-tap-ms = <65>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
             global-quick-tap;
             flavor = "tap-preferred";
+            hold-trigger-on-release;
         };
 
         hml: hml {
