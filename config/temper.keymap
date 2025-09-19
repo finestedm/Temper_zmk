@@ -32,6 +32,8 @@
     flavor = "balanced";
 };
 
+&lt { tapping-term-ms = <165>; };
+
 / {
     behaviors {
         mmv {
