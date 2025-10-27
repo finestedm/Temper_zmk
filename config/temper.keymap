@@ -274,6 +274,11 @@
             bindings = <&kp DEL>;
             key-positions = <20 23>;
         };
+
+        mouse_layer_switch {
+            bindings = <&tog 7>;
+            key-positions = <14 15>;
+        };
     };
 
     keymap {
@@ -341,6 +346,15 @@
   &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(N4)  &kp LG(N5)  &kp LG(N6)  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &trans
                   &trans  &trans  &trans    &trans  &trans      &trans
+            >;
+        };
+
+        mouse {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans          &trans
+  &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &trans          &trans        &trans          &trans
+                  &trans  &trans  &trans    &mkp LCLK       &mkp MCLK       &mkp RCLK
             >;
         };
     };
