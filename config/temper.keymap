@@ -49,10 +49,9 @@
 
             #binding-cells = <2>;
             quick-tap-ms = <65>;
-            tapping-term-ms = <125>;
+            tapping-term-ms = <160>;
             global-quick-tap;
             flavor = "tap-preferred";
-            hold-trigger-on-release;
         };
 
         hml: hml {
@@ -122,6 +121,7 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <10 19>;
             layers = <0>;
+            timeout-ms = <200>;
         };
 
         Alt+tab {
@@ -273,6 +273,7 @@
         del_left {
             bindings = <&kp DEL>;
             key-positions = <20 23>;
+            timeout-ms = <200>;
         };
 
         mouse_layer_switch {
