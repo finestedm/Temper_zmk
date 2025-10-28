@@ -121,7 +121,6 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <10 19>;
             layers = <0>;
-            timeout-ms = <200>;
         };
 
         Alt+tab {
