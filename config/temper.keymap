@@ -183,7 +183,7 @@
             bindings = <&kp MINUS>;
             key-positions = <18 19>;
             layers = <0>;
-            timeout-ms = <100>;
+            timeout-ms = <150>;
         };
 
         boot_r {
@@ -256,6 +256,7 @@
             bindings = <&kp EQUAL>;
             key-positions = <16 17 18>;
             layers = <5>;
+            timeout-ms = <175>;
         };
 
         num_par_left {
@@ -279,6 +280,7 @@
         mouse_layer_switch {
             bindings = <&tog 7>;
             key-positions = <14 15>;
+            timeout-ms = <175>;
         };
     };
 
