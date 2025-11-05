@@ -21,8 +21,8 @@ layers:
   - {t: E, h: RIGHT CONTROL}
   - {t: I, h: Win}
   - {t: O, h: Shift}
-  - Z
   - X
+  - Z
   - C
   - D
   - V
