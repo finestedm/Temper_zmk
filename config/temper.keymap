@@ -366,7 +366,7 @@
 
         mouse {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans          &trans
+  &trans  &trans  &trans  &trans  &trans    &mkp MB1        &trans          &trans        &trans          &trans
   &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
   &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &trans          &trans        &trans          &trans
                   &trans  &trans  &trans    &mkp LCLK       &mkp MCLK       &mkp RCLK
