@@ -1,10 +1,10 @@
-/*
- * Copyright (c) 2020 Pete Johanson
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include "temper.dtsi"
+
+/ {
+    chosen {
+        /delete-property/ zephyr,display;
+    };
+};
 
 &default_transform {
     col-offset = <5>;
@@ -27,7 +27,6 @@
         compatible = "azoteq,iqs5xx";
         reg = <0x74>;
 
-        /* ⚠️ THESE MUST MATCH YOUR WIRING */
         rdy-gpios   = <&pro_micro 14 GPIO_ACTIVE_HIGH>;
         reset-gpios = <&pro_micro 16 GPIO_ACTIVE_LOW>;
 
@@ -35,18 +34,5 @@
         two-finger-tap;
         scroll;
         natural-scroll-y;
-    };
-};
-
-&main {
-    trackpad_input: trackpad_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackpad>;
-    };
-};
-
-/ {
-    chosen {
-        /delete-property/ zephyr,display;
     };
 };
