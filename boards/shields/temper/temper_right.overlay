@@ -46,3 +46,9 @@
         device = <&trackpad>;
     };
 };
+
+/ {
+    chosen {
+        /delete-property/ zephyr,display;
+    };
+};
