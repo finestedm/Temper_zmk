@@ -20,15 +20,14 @@
         ;
 };
 
-/* Enable I2C bus used by the trackpad */
-&i2c0 {
+&pro_micro_i2c {
     status = "okay";
 
     trackpad: iqs5xx@74 {
         compatible = "azoteq,iqs5xx";
         reg = <0x74>;
 
-        /* ⚠️ VERIFY THESE GPIOs */
+        /* ⚠️ THESE MUST MATCH YOUR WIRING */
         rdy-gpios   = <&pro_micro 14 GPIO_ACTIVE_HIGH>;
         reset-gpios = <&pro_micro 16 GPIO_ACTIVE_LOW>;
 
@@ -39,7 +38,6 @@
     };
 };
 
-/* Register trackpad as a ZMK input device */
 &main {
     trackpad_input: trackpad_listener {
         compatible = "zmk,input-listener";
