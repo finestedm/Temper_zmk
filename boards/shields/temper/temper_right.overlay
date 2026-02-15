@@ -20,15 +20,26 @@
         ;
 };
 
+/* =========================
+   I2C PRZENIESIONE NA HEADER
+   SDA = P0.17
+   SCL = P0.20
+   ========================= */
+
 &pro_micro_i2c {
     status = "okay";
+    sda-pin = <17>;
+    scl-pin = <20>;
 
     trackpad: iqs5xx@74 {
         compatible = "azoteq,iqs5xx";
         reg = <0x74>;
 
-        rdy-gpios   = <&pro_micro 14 GPIO_ACTIVE_HIGH>;
-        reset-gpios = <&pro_micro 16 GPIO_ACTIVE_LOW>;
+        /* RDY -> P0.06 */
+        rdy-gpios = <&pro_micro 6 GPIO_ACTIVE_HIGH>;
+
+        /* RESET -> P0.09 (opcjonalny ale zalecany) */
+        reset-gpios = <&pro_micro 9 GPIO_ACTIVE_LOW>;
 
         one-finger-tap;
         two-finger-tap;
