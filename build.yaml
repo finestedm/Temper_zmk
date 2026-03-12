@@ -2,5 +2,7 @@
 include:
   - board: nice_nano@2.0.0//zmk
     shield: temper_left nice_view_adapter nice_view
+    snippet: zmk-usb-logging
   - board: nice_nano@2.0.0//zmk
     shield: temper_right nice_view_adapter nice_view
+    snippet: zmk-usb-logging
