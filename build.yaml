@@ -1,6 +1,8 @@
 ---
 include:
   - board: nice_nano@2.0.0//zmk
-    shield: temper_left nice_view_adapter nice_view
+    shield: temper_left tps43
   - board: nice_nano@2.0.0//zmk
-    shield: temper_right nice_view_adapter nice_view
+    shield: temper_right
+  - board: nice_nano@2.0.0//zmk
+    shield: settings_reset

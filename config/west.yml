@@ -2,15 +2,18 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: finestedm
-      url-base: https://github.com/finestedm
+    - name: AYM1607
+      url-base: https://github.com/AYM1607
+
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: Temper_zmk
-      remote: finestedm
+
+    - name: zmk-driver-azoteq-iqs5xx
+      remote: AYM1607
       revision: main
+
   self:
     path: config

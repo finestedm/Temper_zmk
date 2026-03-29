@@ -6,9 +6,6 @@ config ZMK_POINTING
 config INPUT
     default y
 
-config INPUT_THREAD
-    default y
-
 config ZMK_MOUSE
     default y
 
