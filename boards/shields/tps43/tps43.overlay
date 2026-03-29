@@ -1,0 +1,36 @@
+#include <dt-bindings/gpio/gpio.h>
+
+/ {
+    tps43_input: tps43_input {
+        compatible = "zmk,input-listener";
+        device = <&tps43>;
+    };
+};
+
+&pro_micro_i2c {
+    status = "okay";
+
+    tps43: iqs5xx@74 {
+        status = "okay";
+        compatible = "azoteq,iqs5xx";
+        reg = <0x74>;
+
+        /* RDY = CS header = D1 = P0.06 */
+        rdy-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+
+        /* Add later if needed */
+        /* reset-gpios = <&pro_micro X GPIO_ACTIVE_LOW>; */
+
+        one-finger-tap;
+        two-finger-tap;
+        press-and-hold;
+        press-and-hold-time = <250>;
+
+        scroll;
+        natural-scroll-y;
+        natural-scroll-x;
+
+        bottom-beta = <5>;
+        stationary-threshold = <5>;
+    };
+};

@@ -1,0 +1,15 @@
+if SHIELD_TPS43
+
+config ZMK_POINTING
+    default y
+
+config INPUT
+    default y
+
+config INPUT_THREAD
+    default y
+
+config ZMK_MOUSE
+    default y
+
+endif

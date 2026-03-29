@@ -1,0 +1,7 @@
+file_format: "1"
+id: tps43
+name: TPS43
+type: shield
+requires: [nice_nano]
+features:
+  - pointer
