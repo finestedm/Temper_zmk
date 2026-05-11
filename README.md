@@ -108,6 +108,7 @@ The **Symbols layer** includes frequently used programming and punctuation symbo
 
 This structure ensures a **balanced, efficient workflow** across typing, navigation, programming, and mouse control while maintaining **ergonomic comfort**.
 
+
 ## Photos
 ![photo01](photos/IMG_20250310_170347.jpg)
 ![photo02](photos/IMG_20250310_170352.jpg)
