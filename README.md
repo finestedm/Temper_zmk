@@ -1,7 +1,7 @@
 ![Diagram of config](keymap-drawer/temper.svg)
 
 # Keyboard Layout Documentation
-
+.
 ## Table of Contents
 1. [Base Layout](#base-layout)
 2. [Thumb Clusters](#thumb-clusters)
