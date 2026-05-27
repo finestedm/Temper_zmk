@@ -278,6 +278,11 @@
             key-positions = <14 15>;
             timeout-ms = <175>;
         };
+
+        layer6 {
+            bindings = <&mo 6>;
+            key-positions = <33 34>;
+        };
     };
 
     keymap {
