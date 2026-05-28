@@ -33,8 +33,8 @@ layers:
   - {t: /, h: \}
   - {t: ⏎, h: NUMERICAL}
   - {t: ↹, h: navi_right}
-  - {t: ⌫, h: AltGr}
-  - {t: ␣, h: focus_switch}
+  - ⌫
+  - {t: ␣, h: AltGr}
   - {t: ⏎, h: navi_left}
   - {t: ⌦, h: F1_F12}
   BLT:
@@ -257,7 +257,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   mouse:
   - {t: ▽, type: trans}
@@ -303,9 +303,6 @@ combos:
 - p: [10, 11, 12]
   k: Alt+↹
   l: [Base]
-- p: [0, 9]
-  k: ESCAPE
-  l: [Base]
 - p: [0, 10]
   k: '~'
   l: [Base]
@@ -321,17 +318,11 @@ combos:
 - p: [9, 8]
   k: Snip Img
   l: [Base]
-- p: [30, 35]
-  k: Gui+←
-  l: [Base]
 - p: [27, 28]
   k: ;
   l: [Base]
 - p: [18, 19]
   k: '-'
-  l: [Base]
-- p: [33, 5, 9]
-  k: Boot
   l: [Base]
 - p: [0, 4, 32]
   k: Boot
@@ -375,3 +366,5 @@ combos:
   k: ⌦
 - p: [14, 15]
   k: {t: mouse, h: toggle}
+- p: [33, 34]
+  k: focus_switch
