@@ -33,8 +33,8 @@ layers:
   - {t: /, h: \}
   - {t: ⏎, h: NUMERICAL}
   - {t: ↹, h: navi_right}
-  - ⌫
-  - {t: ␣, h: AltGr}
+  - {t: ⌫, h: AltGr}
+  - ␣
   - {t: ⏎, h: navi_left}
   - {t: ⌦, h: F1_F12}
   BLT:
