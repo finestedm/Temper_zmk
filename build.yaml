@@ -3,6 +3,6 @@ include:
   - board: nice_nano@2.0.0//zmk
     shield: temper_left tps43
   - board: nice_nano@2.0.0//zmk
-    shield: temper_right
+    shield: temper_right tps43
   - board: nice_nano@2.0.0//zmk
     shield: settings_reset
