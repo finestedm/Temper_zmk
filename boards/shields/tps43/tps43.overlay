@@ -1,47 +1,28 @@
 #include <dt-bindings/gpio/gpio.h>
 
 / {
-    split_inputs {
-        #address-cells = <1>;
-        #size-cells = <0>;
-
-        tps43_split: tps43_split@0 {
-            compatible = "zmk,input-split";
-            reg = <0>;
-        };
-    };
-
     tps43_input: tps43_input {
         compatible = "zmk,input-listener";
-        status = "disabled";
-        device = <&tps43_split>;
+        device = <&tps43>;
     };
 };
 
-#if defined(CONFIG_ZMK_SPLIT_ROLE_CENTRAL)
-
-/* Left/central half receives forwarded pointer events. */
-&tps43_input {
-    status = "okay";
-};
-
-#else
-
-/* Right/peripheral half owns the physical TPS43. */
 &pro_micro_i2c {
     status = "okay";
 
     tps43: iqs5xx@74 {
-        compatible = "azoteq,iqs5xx";
         status = "okay";
+        compatible = "azoteq,iqs5xx";
         reg = <0x74>;
 
-        /* TPS43 RDY connected to Pro Micro D1. */
+        /* RDY = CS header = D1 = P0.06 */
         rdy-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+
+        /* Add later if needed */
+        /* reset-gpios = <&pro_micro X GPIO_ACTIVE_LOW>; */
 
         one-finger-tap;
         two-finger-tap;
-
         press-and-hold;
         press-and-hold-time = <250>;
 
@@ -53,9 +34,3 @@
         stationary-threshold = <5>;
     };
 };
-
-&tps43_split {
-    device = <&tps43>;
-};
-
-#endif
