@@ -4,5 +4,6 @@ include:
     shield: temper_left
   - board: nice_nano@2.0.0//zmk
     shield: temper_right tps43
+    snippet: zmk-usb-logging
   - board: nice_nano@2.0.0//zmk
     shield: settings_reset
