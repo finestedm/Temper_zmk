@@ -1,7 +1,7 @@
 ---
 include:
   - board: nice_nano@2.0.0//zmk
-    shield: temper_left tps43
+    shield: temper_left
   - board: nice_nano@2.0.0//zmk
     shield: temper_right tps43
   - board: nice_nano@2.0.0//zmk
