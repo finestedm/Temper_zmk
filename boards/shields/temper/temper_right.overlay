@@ -6,13 +6,6 @@
 
 #include "temper.dtsi"
 
-/ {
-    tps43_input: tps43_input {
-        compatible = "zmk,input-listener";
-        device = <&tps43>;
-    };
-};
-
 &default_transform {
     col-offset = <5>;
 };
@@ -36,7 +29,7 @@
         reg = <0x74>;
 
         /* RDY = CS header = D1 = P0.06 */
-        rdy-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+        rdy-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 
         /* Add later if needed */
         /* reset-gpios = <&pro_micro X GPIO_ACTIVE_LOW>; */
@@ -54,4 +47,8 @@
         bottom-beta = <5>;
         stationary-threshold = <5>;
     };
+};
+
+&tps43_split {
+    device = <&tps43>;
 };
