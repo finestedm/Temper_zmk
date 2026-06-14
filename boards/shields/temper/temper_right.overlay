@@ -5,6 +5,7 @@
  */
 
 #include "temper.dtsi"
+#include <dt-bindings/zmk/input_transform.h>
 
 &default_transform {
     col-offset = <5>;
@@ -52,4 +53,5 @@
 
 &tps43_split {
     device = <&tps43>;
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 };
